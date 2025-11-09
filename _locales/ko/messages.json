@@ -1,0 +1,461 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "1단계를 클릭하여 먼저 TikTok.com을 여세요"
+   },
+   "allDoneTitle": {
+      "message": "완료!"
+   },
+   "alreadyRatedButton": {
+      "message": "이미 평가했습니다"
+   },
+   "appTitle": {
+      "message": "ClearTok - 리포스트 제거기"
+   },
+   "completionMessage": {
+      "message": "프로필에서 {count}개의 리포스트 동영상을 성공적으로 제거했습니다."
+   },
+   "completionMessageNoReposts": {
+      "message": "좋아요! 프로필에 리포스트 동영상이 없습니다{duration}."
+   },
+   "completionMessageSuccess": {
+      "message": "{count}개 리포스트 동영상을 성공적으로 제거{plural}{duration}."
+   },
+   "copyRemovedButton": {
+      "message": "📋 제거 목록 복사"
+   },
+   "currentLanguage": {
+      "message": "한국어"
+   },
+   "dailyLimitReachedButton": {
+      "message": "리포스트 더 삭제하기"
+   },
+   "durationMinutes": {
+      "message": " {minutes}분 {seconds}초"
+   },
+   "durationSeconds": {
+      "message": " {seconds}초"
+   },
+   "errorMessage": {
+      "message": "다시 시도하거나 콘솔에서 세부 정보를 확인하세요."
+   },
+   "errorTitle": {
+      "message": "문제가 발생했습니다"
+   },
+   "exportButtonText": {
+      "message": "⬇️ 내보내기"
+   },
+   "exportButtonTitle": {
+      "message": "CSV 내보내기"
+   },
+   "extDescription": {
+      "message": "TikTok 리포스트를 즉시 모두 제거 — 스크롤도 탭도 필요 없음."
+   },
+   "extName": {
+      "message": "ClearTok - 리포스트 제거기"
+   },
+   "feedbackDescription": {
+      "message": "ClearTok을 더 좋게 만들기 위한 제안을 듣고 싶습니다."
+   },
+   "feedbackPlaceholder": {
+      "message": "생각과 제안을 공유해 주세요..."
+   },
+   "feedbackTitle": {
+      "message": "개선에 도움을 주세요! 💡"
+   },
+   "howItWorks1": {
+      "message": "TikTok 프로필로 이동"
+   },
+   "howItWorks2": {
+      "message": "리포스트 탭을 찾고 열기"
+   },
+   "howItWorks3": {
+      "message": "모든 리포스트 동영상 자동 제거"
+   },
+   "howItWorks4": {
+      "message": "실시간 진행 상황 추적"
+   },
+   "howItWorksTitle": {
+      "message": "📖 작동 방식"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ 중요 사항"
+   },
+   "languageSelector": {
+      "message": "🌐 언어"
+   },
+   "logError": {
+      "message": "오류: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ 목록 복사 실패"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ URL 복사 실패"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 결과를 보려고 리포스트 탭으로 이동..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ 리포스트가 없습니다 - 프로필이 깨끗해요!{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ 페이지 새로고침 완료"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 프로세스 완료! {count}개 동영상 제거{duration}."
+   },
+   "logProcessPaused": {
+      "message": "사용자가 프로세스 일시중지"
+   },
+   "logProcessResumed": {
+      "message": "프로세스 재개"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 업데이트된 내용을 보려고 TikTok 페이지 새로고침..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 제거된 동영상 목록이 복사됨"
+   },
+   "logStartingProcess": {
+      "message": "🚀 리포스트 제거 프로세스 시작..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ 페이지를 자동으로 새로고칠 수 없음"
+   },
+   "logVideoRemoved": {
+      "message": "리포스트 #{number} 제거됨"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "{author}의 리포스트 제거"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "제거됨: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "제거됨: \"{title}\" ({author})"
+   },
+   "logVideoSkipped": {
+      "message": "#{number} 건너뜀"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "{author}의 동영상 건너뜀"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "건너뜀: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "건너뜀: \"{title}\" ({author})"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 동영상 URL이 클립보드에 복사됨"
+   },
+   "logWaitingPaused": {
+      "message": "프로세스 일시중지됨"
+   },
+   "logWaitingSeconds": {
+      "message": "{seconds}초 대기 중..."
+   },
+   "loginStatusDefault": {
+      "message": "TikTok.com 열기 클릭"
+   },
+   "loginStatusError": {
+      "message": "TikTok 열기 오류 - 다시 시도"
+   },
+   "loginStatusLoggedIn": {
+      "message": "로그인됨 - 시작 준비 완료!"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "먼저 TikTok에 로그인하세요"
+   },
+   "loginStatusOpening": {
+      "message": "TikTok.com 여는 중..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.com 열림 - 시작 준비 완료!"
+   },
+   "noRemovedVideos": {
+      "message": "아직 제거된 동영상이 없습니다"
+   },
+   "noRepostsFoundMessage": {
+      "message": "훌륭해요! 프로필에 리포스트가 없습니다."
+   },
+   "note1Description": {
+      "message": "TikTok.com을 열어두고 로그인 상태 유지"
+   },
+   "note1Title": {
+      "message": "로그인 유지:"
+   },
+   "note2Description": {
+      "message": "프로세스가 자연스럽게 완료될 때까지 기다리기"
+   },
+   "note2Title": {
+      "message": "중단하지 않기:"
+   },
+   "note3Description": {
+      "message": "속도는 연결 상태에 따라 다름"
+   },
+   "note3Title": {
+      "message": "네트워크 속도:"
+   },
+   "note4Description": {
+      "message": "리포스트만 제거, 원본 동영상은 안전"
+   },
+   "note4Title": {
+      "message": "안전한 작업:"
+   },
+   "notificationCaptionCopied": {
+      "message": "캡션이 복사되었습니다"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "복사에 실패했습니다"
+   },
+   "notificationExportFailed": {
+      "message": "❌ CSV 내보내기 실패"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ CSV로 내보냈습니다"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ 목록을 클립보드에 복사하지 못했습니다"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ URL을 클립보드에 복사하지 못했습니다"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ 유효하지 않은 동영상 URL"
+   },
+   "notificationListCopied": {
+      "message": "📋 제거된 동영상 목록이 성공적으로 복사됨!"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ 리포스트 동영상이 없습니다!"
+   },
+   "notificationNoUrls": {
+      "message": "📝 아직 동영상 URL이 없습니다. 제거 프로세스를 시작하세요."
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 TikTok 페이지 새로고침, 리포스트로 이동..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ 계속하려면 TikTok.com에 로그인하세요"
+   },
+   "notificationShareSaved": {
+      "message": "공유 카드가 저장되었습니다"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 동영상 URL이 성공적으로 복사됨!"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 새 탭에서 동영상 열림"
+   },
+   "pauseButton": {
+      "message": "⏸️ 일시중지"
+   },
+   "pendingVideosHeader": {
+      "message": "=== 대기/처리된 동영상 ==="
+   },
+   "pleaseRateUs": {
+      "message": "평가를 부탁드립니다"
+   },
+   "privacy1": {
+      "message": "✅ 비밀번호 저장 안함"
+   },
+   "privacy2": {
+      "message": "✅ 데이터 수집 안함"
+   },
+   "privacy3": {
+      "message": "✅ 브라우저에서 로컬로 작동"
+   },
+   "privacy4": {
+      "message": "✅ 오픈 소스 및 투명"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 개인정보 보호 및 보안"
+   },
+   "progressLabel": {
+      "message": "📊 진행률:"
+   },
+   "rateThisExtension": {
+      "message": "이 확장 프로그램 평가하기"
+   },
+   "rateUsActionButton": {
+      "message": "평가하기"
+   },
+   "rateUsButton": {
+      "message": "⭐ 평가하기"
+   },
+   "recheckLoginTitle": {
+      "message": "로그인 다시 확인"
+   },
+   "removedVideosHeader": {
+      "message": "=== 제거된 동영상 ({count}개) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ 제거된 동영상"
+   },
+   "reportIssueLink": {
+      "message": "🐛 문제 신고"
+   },
+   "restartButton": {
+      "message": "🔄 새 세션 시작"
+   },
+   "resumeButton": {
+      "message": "▶️ 계속"
+   },
+   "retryButton": {
+      "message": "🔄 다시 시도"
+   },
+   "shareCardButton": {
+      "message": "카드 공유"
+   },
+   "shareCopyCaption": {
+      "message": "캡션 복사"
+   },
+   "shareModalTitle": {
+      "message": "정리 결과 공유"
+   },
+   "shareSaveImage": {
+      "message": "이미지 저장"
+   },
+   "shareShuffleTitle": {
+      "message": "무작위 태그라인 제안"
+   },
+   "shareTaglineLabel": {
+      "message": "태그라인:"
+   },
+   "shareTaglinePlaceholder": {
+      "message": "직접 입력하세요..."
+   },
+   "share_tagline_1": {
+      "message": "이제 새로 시작하고 과거를 뒤로하기 위해 모든 리포스트를 삭제했어요"
+   },
+   "share_tagline_10": {
+      "message": "조용히 재구축 중 — 이번엔 스포일러 없이"
+   },
+   "share_tagline_11": {
+      "message": "빵부스러기는 남기지 않아. 아는 사람만 알면 돼"
+   },
+   "share_tagline_12": {
+      "message": "난 이미 앞으로 나아갔어. 알고리즘은 나중에 따라와"
+   },
+   "share_tagline_13": {
+      "message": "메아리는 지우고, 목소리는 남긴다"
+   },
+   "share_tagline_14": {
+      "message": "소음은 줄이고, 나를 더"
+   },
+   "share_tagline_15": {
+      "message": "타임라인을 다시 쓰는 중, 여기서부터"
+   },
+   "share_tagline_2": {
+      "message": "그가 내가 무엇을 하고 무엇을 느끼는지 모르게 리포스트를 전부 지우는 중..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "그는 절대 신경 쓰지 않을 테니까 내 리포스트를 다 지울래"
+   },
+   "share_tagline_4": {
+      "message": "새로운 삶을 시작하려고 모든 리포스트를 제거"
+   },
+   "share_tagline_5": {
+      "message": "내가 누군지 네가 알아낼 수 없도록 리포스트를 전부 지웠어"
+   },
+   "share_tagline_6": {
+      "message": "미래를 위해 과거를 아카이브하는 중"
+   },
+   "share_tagline_7": {
+      "message": "소프트 리셋: 리포스트는 지우고 배움은 남겨둬"
+   },
+   "share_tagline_8": {
+      "message": "칠판 지우듯, 리포스트 하나씩"
+   },
+   "share_tagline_9": {
+      "message": "잘 가, 어제. 안녕, 나 버전 2.0"
+   },
+   "startButton": {
+      "message": "🧹 리포스트 제거 시작"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "리포스트 탭을 찾을 수 없습니다."
+   },
+   "statusDailyLimitReached": {
+      "message": "일일 제한에 도달함"
+   },
+   "statusFoundTotal": {
+      "message": "{total}개의 리포스트 발견."
+   },
+   "statusInitializing": {
+      "message": "초기화 중..."
+   },
+   "statusLabel": {
+      "message": "🧹 상태:"
+   },
+   "statusLoadedSoFar": {
+      "message": "지금까지 {count}개 불러옴..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "리포스트 탭을 찾는 중..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "리포스트 탭 여는 중..."
+   },
+   "statusNavigatingProfile": {
+      "message": "프로필로 이동 중..."
+   },
+   "statusOnRepostsTab": {
+      "message": "리포스트 탭에서 결과 표시 중."
+   },
+   "statusOpeningFirstRepost": {
+      "message": "첫 번째 리포스트 여는 중..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "{total}개 중 {current}개 처리 중..."
+   },
+   "statusScrolling": {
+      "message": "처음 리포스트 불러오는 중..."
+   },
+   "statusStarting": {
+      "message": "리포스트 정리를 시작하는 중..."
+   },
+   "step1Description": {
+      "message": "여기를 클릭하여 TikTok.com을 열고 계정에 로그인하세요."
+   },
+   "step1Status": {
+      "message": "TikTok.com 열기 클릭"
+   },
+   "step1Title": {
+      "message": "1단계: TikTok.com에 로그인"
+   },
+   "step2Title": {
+      "message": "2단계: 제거 시작"
+   },
+   "submitFeedbackButton": {
+      "message": "피드백 제출"
+   },
+   "thankYouForFeedback": {
+      "message": "{rating}별 평가와 피드백을 주셔서 감사합니다!"
+   },
+   "thankYouForRating": {
+      "message": "평가해주셔서 감사합니다!"
+   },
+   "unlockPlusButton": {
+      "message": "리포스트 더 삭제하기"
+   },
+   "videoRemovedAt": {
+      "message": "제거 시간: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "상태: 대기/건너뜀"
+   },
+   "videoUnknownAuthor": {
+      "message": "알 수 없음"
+   },
+   "videoUnknownTitle": {
+      "message": "알 수 없음"
+   },
+   "viewLogButton": {
+      "message": "🧾 로그 보기"
+   }
+}

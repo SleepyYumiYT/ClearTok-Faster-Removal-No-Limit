@@ -1,0 +1,464 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "يرجى فتح TikTok.com أولاً بالنقر على الخطوة 1"
+   },
+   "allDoneTitle": {
+      "message": "اكتمل كل شيء!"
+   },
+   "alreadyRatedButton": {
+      "message": "لقد قمت بالتقييم"
+   },
+   "appTitle": {
+      "message": "ClearTok - مزيل الإعادات"
+   },
+   "completionMessage": {
+      "message": "تم حذف {count} فيديو معاد نشره من ملفك الشخصي بنجاح."
+   },
+   "completionMessageNoReposts": {
+      "message": "رائع! لم يتم العثور على فيديوهات معاد نشرها في ملفك الشخصي{duration}."
+   },
+   "completionMessageSuccess": {
+      "message": "تم حذف {count} فيديو معاد نشره{plural}{duration} بنجاح."
+   },
+   "copyRemovedButton": {
+      "message": "📋 نسخ قائمة المحذوفات"
+   },
+   "currentLanguage": {
+      "message": "العربية"
+   },
+   "dailyLimitReachedButton": {
+      "message": "حذف المزيد من المشاركات المُعاد نشرها"
+   },
+   "documentationLink": {
+      "message": "📖 التوثيق"
+   },
+   "durationMinutes": {
+      "message": " خلال {minutes} دقيقة {seconds} ثانية"
+   },
+   "durationSeconds": {
+      "message": " خلال {seconds} ثانية"
+   },
+   "errorMessage": {
+      "message": "يرجى المحاولة مرة أخرى أو التحقق من وحدة التحكم لمزيد من التفاصيل."
+   },
+   "errorTitle": {
+      "message": "حدث خطأ ما"
+   },
+   "exportButtonText": {
+      "message": "⬇️ تصدير"
+   },
+   "exportButtonTitle": {
+      "message": "تصدير CSV"
+   },
+   "extDescription": {
+      "message": "أزل فورًا جميع إعاداتك على تيك توك — بلا تمرير، بلا نقر."
+   },
+   "extName": {
+      "message": "ClearTok - مزيل الإعادات"
+   },
+   "feedbackDescription": {
+      "message": "نود سماع اقتراحاتك لجعل ClearTok أفضل."
+   },
+   "feedbackPlaceholder": {
+      "message": "شارك أفكارك واقتراحاتك..."
+   },
+   "feedbackTitle": {
+      "message": "ساعدنا في التحسين! 💡"
+   },
+   "howItWorks1": {
+      "message": "انتقل إلى ملفك الشخصي في تيك توك"
+   },
+   "howItWorks2": {
+      "message": "ابحث وافتح علامة تبويب الإعادات"
+   },
+   "howItWorks3": {
+      "message": "إزالة جميع الفيديوهات المعاد نشرها تلقائياً"
+   },
+   "howItWorks4": {
+      "message": "تتبع التقدم في الوقت الحقيقي"
+   },
+   "howItWorksTitle": {
+      "message": "📖 كيف يعمل"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ ملاحظات مهمة"
+   },
+   "languageSelector": {
+      "message": "🌐 اللغة"
+   },
+   "logError": {
+      "message": "خطأ: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ فشل نسخ قائمة المحذوفات"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ فشل نسخ الروابط"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 الانتقال إلى علامة تبويب الإعادات لعرض النتائج..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ لم يتم العثور على إعادات - ملفك نظيف!{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ تم تحديث الصفحة بنجاح"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 اكتملت العملية! تم حذف {count} فيديو{duration}."
+   },
+   "logProcessPaused": {
+      "message": "تم إيقاف العملية مؤقتًا من قبل المستخدم"
+   },
+   "logProcessResumed": {
+      "message": "تم استئناف العملية"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 جارٍ تحديث صفحة تيك توك لإظهار المحتوى المحدث..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 تم نسخ قائمة الفيديوهات المحذوفة"
+   },
+   "logStartingProcess": {
+      "message": "🚀 بدء عملية إزالة الإعادات..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ تعذّر تحديث الصفحة تلقائياً"
+   },
+   "logVideoRemoved": {
+      "message": "تم حذف الإعادة رقم #{number}"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "تم حذف إعادة النشر بواسطة {author}"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "تم حذف: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "تم حذف: \"{title}\" بواسطة {author}"
+   },
+   "logVideoSkipped": {
+      "message": "تم التخطي #{number}"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "تخطى فيديو لـ {author}"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "تخطي: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "تخطي: \"{title}\" بواسطة {author}"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 تم نسخ روابط الفيديو"
+   },
+   "logWaitingPaused": {
+      "message": "تم إيقاف العملية مؤقتاً"
+   },
+   "logWaitingSeconds": {
+      "message": "انتظار {seconds}ث..."
+   },
+   "loginStatusDefault": {
+      "message": "انقر لفتح TikTok.com"
+   },
+   "loginStatusError": {
+      "message": "خطأ في فتح تيك توك - حاول مرة أخرى"
+   },
+   "loginStatusLoggedIn": {
+      "message": "تم تسجيل الدخول - جاهز للبدء!"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "يرجى تسجيل الدخول إلى تيك توك أولاً"
+   },
+   "loginStatusOpening": {
+      "message": "جاري فتح TikTok.com..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.com مفتوح - جاهز للبدء!"
+   },
+   "noRemovedVideos": {
+      "message": "لم يتم حذف أي فيديو بعد"
+   },
+   "noRepostsFoundMessage": {
+      "message": "رائع! لم يتم العثور على أي إعادات في ملفك الشخصي."
+   },
+   "note1Description": {
+      "message": "أبقِ TikTok.com مفتوحًا ومُسجلاً الدخول"
+   },
+   "note1Title": {
+      "message": "ابقَ مسجلاً الدخول:"
+   },
+   "note2Description": {
+      "message": "دع العملية تكتمل بشكل طبيعي"
+   },
+   "note2Title": {
+      "message": "لا تقاطع:"
+   },
+   "note3Description": {
+      "message": "تعتمد السرعة على اتصالك"
+   },
+   "note3Title": {
+      "message": "سرعة الشبكة:"
+   },
+   "note4Description": {
+      "message": "يحذف الإعادات فقط، الفيديوهات الأصلية آمنة"
+   },
+   "note4Title": {
+      "message": "تشغيل آمن:"
+   },
+   "notificationCaptionCopied": {
+      "message": "تم نسخ التسمية"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "فشل النسخ"
+   },
+   "notificationExportFailed": {
+      "message": "❌ فشل تصدير CSV"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ تم تصدير القائمة كملف CSV"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ فشل نسخ القائمة إلى الحافظة"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ فشل نسخ الروابط إلى الحافظة"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ رابط فيديو غير صالح"
+   },
+   "notificationListCopied": {
+      "message": "📋 تم نسخ قائمة الفيديوهات المحذوفة بنجاح!"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ لم يتم العثور على فيديوهات معاد نشرها!"
+   },
+   "notificationNoUrls": {
+      "message": "📝 لا توجد روابط فيديو حتى الآن. ابدأ عملية الإزالة لعرض الروابط."
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 تم تحديث صفحة تيك توك، جارٍ الانتقال إلى الإعادات..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ يُرجى تسجيل الدخول إلى TikTok.com للمتابعة"
+   },
+   "notificationShareSaved": {
+      "message": "تم حفظ بطاقة المشاركة"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 تم نسخ روابط الفيديو بنجاح!"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 تم فتح الفيديو في تبويب جديد"
+   },
+   "pauseButton": {
+      "message": "⏸️ إيقاف مؤقت"
+   },
+   "pendingVideosHeader": {
+      "message": "=== الفيديوهات المعلقة/المعالجة ==="
+   },
+   "pleaseRateUs": {
+      "message": "يرجى تقييمنا"
+   },
+   "privacy1": {
+      "message": "✅ لا يتم حفظ كلمات المرور"
+   },
+   "privacy2": {
+      "message": "✅ لا يتم جمع البيانات"
+   },
+   "privacy3": {
+      "message": "✅ يعمل محليًا في متصفحك"
+   },
+   "privacy4": {
+      "message": "✅ مفتوح المصدر وشفاف"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 الخصوصية والأمان"
+   },
+   "progressLabel": {
+      "message": "📊 التقدم:"
+   },
+   "rateThisExtension": {
+      "message": "قيّم هذه الإضافة"
+   },
+   "rateUsActionButton": {
+      "message": "قيّم"
+   },
+   "rateUsButton": {
+      "message": "⭐ قيّمنا"
+   },
+   "recheckLoginTitle": {
+      "message": "إعادة التحقق من تسجيل الدخول"
+   },
+   "removedVideosHeader": {
+      "message": "=== الفيديوهات المحذوفة ({count} إجمالي) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ الفيديوهات المحذوفة"
+   },
+   "reportIssueLink": {
+      "message": "🐛 الإبلاغ عن مشكلة"
+   },
+   "restartButton": {
+      "message": "🔄 ابدأ جلسة جديدة"
+   },
+   "resumeButton": {
+      "message": "▶️ متابعة"
+   },
+   "retryButton": {
+      "message": "🔄 حاول مرة أخرى"
+   },
+   "shareCardButton": {
+      "message": "مشاركة البطاقة"
+   },
+   "shareCopyCaption": {
+      "message": "نسخ التسمية"
+   },
+   "shareModalTitle": {
+      "message": "مشاركة عملية التنظيف"
+   },
+   "shareSaveImage": {
+      "message": "حفظ الصورة"
+   },
+   "shareShuffleTitle": {
+      "message": "اقتراح شعار عشوائي"
+   },
+   "shareTaglineLabel": {
+      "message": "الشعار:"
+   },
+   "shareTaglinePlaceholder": {
+      "message": "اكتب شعارك..."
+   },
+   "share_tagline_1": {
+      "message": "حذفتُ كل إعادة النشر لأبدأ من جديد وأترك كل القديم خلفي"
+   },
+   "share_tagline_10": {
+      "message": "أعيد البناء بهدوء — بلا حرق أحداث هذه المرة"
+   },
+   "share_tagline_11": {
+      "message": "لا فتات خبز بعد الآن. من يعلم يعلم"
+   },
+   "share_tagline_12": {
+      "message": "تجاوزتُ الأمر. الخوارزمية ستلحق لاحقاً"
+   },
+   "share_tagline_13": {
+      "message": "أحذف الأصداء وأبقي على الصوت"
+   },
+   "share_tagline_14": {
+      "message": "ضوضاء أقل، وأنا أكثر"
+   },
+   "share_tagline_15": {
+      "message": "أعيد كتابة الخط الزمني، بدءاً من هنا"
+   },
+   "share_tagline_2": {
+      "message": "أحذف كل الإعادات حتى لا يعرف ما أفعله وما أشعر به..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "أحذف كل إعاداتي لأنه لن يهتم بي أبداً"
+   },
+   "share_tagline_4": {
+      "message": "إزالة كل الإعادات لبدء حياة جديدة"
+   },
+   "share_tagline_5": {
+      "message": "حذفت كل إعاداتي، لذا لن تكتشف من أنا"
+   },
+   "share_tagline_6": {
+      "message": "أؤرشف الماضي لأفسح المجال للمستقبل"
+   },
+   "share_tagline_7": {
+      "message": "إعادة تشغيل لطيفة: أحذف الإعادات وأحتفظ بالدروس"
+   },
+   "share_tagline_8": {
+      "message": "لوح نظيف، إعادة تلو الأخرى"
+   },
+   "share_tagline_9": {
+      "message": "وداعاً يا أمس. مرحباً بي الإصدار 2.0"
+   },
+   "startButton": {
+      "message": "🧹 ابدأ إزالة الإعادات"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "تعذر العثور على تبويب الإعادات."
+   },
+   "statusDailyLimitReached": {
+      "message": "تم بلوغ الحد اليومي"
+   },
+   "statusFoundTotal": {
+      "message": "تم العثور على {total} إعادة."
+   },
+   "statusInitializing": {
+      "message": "جارٍ التهيئة..."
+   },
+   "statusLabel": {
+      "message": "🧹 الحالة:"
+   },
+   "statusLoadedSoFar": {
+      "message": "تم تحميل {count} إعادة..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "البحث عن تبويب الإعادات..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "فتح تبويب الإعادات..."
+   },
+   "statusNavigatingProfile": {
+      "message": "الانتقال إلى ملفك..."
+   },
+   "statusOnRepostsTab": {
+      "message": "في تبويب الإعادات — عرض النتائج."
+   },
+   "statusOpeningFirstRepost": {
+      "message": "فتح أول إعادة..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "معالجة الإعادة {current} من {total}..."
+   },
+   "statusScrolling": {
+      "message": "تحميل الإعادات الأولية..."
+   },
+   "statusStarting": {
+      "message": "بدء تنظيف الإعادات..."
+   },
+   "step1Description": {
+      "message": "انقر هنا لفتح TikTok.com وتسجيل الدخول إلى حسابك."
+   },
+   "step1Status": {
+      "message": "انقر لفتح TikTok.com"
+   },
+   "step1Title": {
+      "message": "الخطوة 1: سجّل الدخول إلى TikTok.com"
+   },
+   "step2Title": {
+      "message": "الخطوة 2: ابدأ الإزالة"
+   },
+   "submitFeedbackButton": {
+      "message": "إرسال الملاحظات"
+   },
+   "thankYouForFeedback": {
+      "message": "شكراً لتقييمك بـ {rating} نجوم وملاحظاتك!"
+   },
+   "thankYouForRating": {
+      "message": "شكراً لملاحظاتك!"
+   },
+   "unlockPlusButton": {
+      "message": "حذف المزيد من المشاركات المُعاد نشرها"
+   },
+   "videoRemovedAt": {
+      "message": "تم الحذف في: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "الحالة: معلق/تم التخطي"
+   },
+   "videoUnknownAuthor": {
+      "message": "غير معروف"
+   },
+   "videoUnknownTitle": {
+      "message": "غير معروف"
+   },
+   "viewLogButton": {
+      "message": "🧾 عرض السجل"
+   }
+}

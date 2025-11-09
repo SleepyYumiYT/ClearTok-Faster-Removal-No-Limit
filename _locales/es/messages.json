@@ -1,0 +1,461 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "Abre TikTok.com primero haciendo clic en el Paso 1"
+   },
+   "allDoneTitle": {
+      "message": "¡Listo!"
+   },
+   "alreadyRatedButton": {
+      "message": "Ya califiqué"
+   },
+   "appTitle": {
+      "message": "ClearTok - Eliminador de Compartidos"
+   },
+   "completionMessage": {
+      "message": "Se borraron {count} videos compartidos de tu perfil."
+   },
+   "completionMessageNoReposts": {
+      "message": "¡Genial! No se encontraron videos compartidos en tu perfil{duration}."
+   },
+   "completionMessageSuccess": {
+      "message": "Se borraron {count} video{plural} compartido{plural}{duration}."
+   },
+   "copyRemovedButton": {
+      "message": "📋 Copiar lista eliminada"
+   },
+   "currentLanguage": {
+      "message": "Español"
+   },
+   "dailyLimitReachedButton": {
+      "message": "Eliminar más compartidos"
+   },
+   "durationMinutes": {
+      "message": " en {minutes} min {seconds} s"
+   },
+   "durationSeconds": {
+      "message": " en {seconds} segundos"
+   },
+   "errorMessage": {
+      "message": "Vuelve a intentarlo o revisa la consola para más detalles."
+   },
+   "errorTitle": {
+      "message": "Algo salió mal"
+   },
+   "exportButtonText": {
+      "message": "⬇️ Exportar"
+   },
+   "exportButtonTitle": {
+      "message": "Exportar CSV"
+   },
+   "extDescription": {
+      "message": "Elimina al instante todos tus compartidos de TikTok — sin desplazarte ni tocar."
+   },
+   "extName": {
+      "message": "ClearTok - Eliminador de Compartidos"
+   },
+   "feedbackDescription": {
+      "message": "Nos encantaría escuchar tus sugerencias para hacer ClearTok mejor."
+   },
+   "feedbackPlaceholder": {
+      "message": "Comparte tus ideas y sugerencias..."
+   },
+   "feedbackTitle": {
+      "message": "¡Ayúdanos a mejorar! 💡"
+   },
+   "howItWorks1": {
+      "message": "Ve a tu perfil de TikTok"
+   },
+   "howItWorks2": {
+      "message": "Encuentra y abre la pestaña Compartidos"
+   },
+   "howItWorks3": {
+      "message": "Borra automáticamente todos los videos compartidos"
+   },
+   "howItWorks4": {
+      "message": "Seguimiento del progreso en tiempo real"
+   },
+   "howItWorksTitle": {
+      "message": "📖 Cómo funciona"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ Notas importantes"
+   },
+   "languageSelector": {
+      "message": "🌐 Idioma"
+   },
+   "logError": {
+      "message": "Error: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ No se pudo copiar la lista"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ No se pudieron copiar las URLs"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 Navegando a la pestaña Compartidos para mostrar resultados..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ No se encontraron compartidos — ¡tu perfil está limpio!{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ Página actualizada correctamente"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 ¡Proceso completo! {count} videos eliminados{duration}."
+   },
+   "logProcessPaused": {
+      "message": "Proceso pausado por el usuario"
+   },
+   "logProcessResumed": {
+      "message": "Proceso reanudado"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 Actualizando página de TikTok para mostrar contenido actualizado..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 Lista de videos eliminados copiada"
+   },
+   "logStartingProcess": {
+      "message": "🚀 Iniciando proceso para borrar compartidos..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ No se pudo actualizar la página automáticamente"
+   },
+   "logVideoRemoved": {
+      "message": "Compartido #{number} borrado"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "Compartido borrado de {author}"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "Eliminado: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "Eliminado: \"{title}\" por {author}"
+   },
+   "logVideoSkipped": {
+      "message": "#{number} omitido"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "Video omitido de {author}"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "Omitido: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "Omitido: \"{title}\" por {author}"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 URLs de videos copiadas al portapapeles"
+   },
+   "logWaitingPaused": {
+      "message": "Proceso pausado"
+   },
+   "logWaitingSeconds": {
+      "message": "Esperando {seconds}s..."
+   },
+   "loginStatusDefault": {
+      "message": "Haz clic para abrir TikTok.com"
+   },
+   "loginStatusError": {
+      "message": "Error al abrir TikTok - Intenta de nuevo"
+   },
+   "loginStatusLoggedIn": {
+      "message": "Sesión iniciada - ¡Listo para empezar!"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "Inicia sesión en TikTok primero"
+   },
+   "loginStatusOpening": {
+      "message": "Abriendo TikTok.com..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.com abierto - ¡Listo para empezar!"
+   },
+   "noRemovedVideos": {
+      "message": "Aún no se ha eliminado ningún video"
+   },
+   "noRepostsFoundMessage": {
+      "message": "¡Genial! No se encontraron compartidos en tu perfil."
+   },
+   "note1Description": {
+      "message": "Deja TikTok.com abierto y con sesión iniciada"
+   },
+   "note1Title": {
+      "message": "Mantén la sesión:"
+   },
+   "note2Description": {
+      "message": "Deja que el proceso termine de forma natural"
+   },
+   "note2Title": {
+      "message": "No interrumpas:"
+   },
+   "note3Description": {
+      "message": "La velocidad depende de tu conexión"
+   },
+   "note3Title": {
+      "message": "Velocidad de red:"
+   },
+   "note4Description": {
+      "message": "Solo se borran compartidos; tus videos originales están seguros"
+   },
+   "note4Title": {
+      "message": "Operación segura:"
+   },
+   "notificationCaptionCopied": {
+      "message": "Leyenda copiada"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "Error al copiar"
+   },
+   "notificationExportFailed": {
+      "message": "❌ Error al exportar CSV"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ Lista exportada como CSV"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ No se pudo copiar la lista"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ No se pudieron copiar las URLs"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ URL de video no válida"
+   },
+   "notificationListCopied": {
+      "message": "📋 Lista copiada con éxito"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ ¡No se encontraron videos compartidos!"
+   },
+   "notificationNoUrls": {
+      "message": "📝 Aún no hay URLs disponibles. Inicia el proceso para verlas."
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 Página de TikTok actualizada, navegando a Compartidos..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ Inicia sesión en TikTok.com para continuar"
+   },
+   "notificationShareSaved": {
+      "message": "Tarjeta guardada"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 URLs copiadas con éxito"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 Video abierto en nueva pestaña"
+   },
+   "pauseButton": {
+      "message": "⏸️ Pausar"
+   },
+   "pendingVideosHeader": {
+      "message": "=== VIDEOS PENDIENTES/PROCESADOS ==="
+   },
+   "pleaseRateUs": {
+      "message": "Por favor califícanos"
+   },
+   "privacy1": {
+      "message": "✅ No se guardan contraseñas"
+   },
+   "privacy2": {
+      "message": "✅ No se recopilan datos"
+   },
+   "privacy3": {
+      "message": "✅ Funciona localmente en tu navegador"
+   },
+   "privacy4": {
+      "message": "✅ Código abierto y transparente"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 Privacidad y seguridad"
+   },
+   "progressLabel": {
+      "message": "📊 Progreso:"
+   },
+   "rateThisExtension": {
+      "message": "Calificar esta extensión"
+   },
+   "rateUsActionButton": {
+      "message": "Calificar"
+   },
+   "rateUsButton": {
+      "message": "⭐ Califícanos"
+   },
+   "recheckLoginTitle": {
+      "message": "Volver a comprobar el inicio de sesión"
+   },
+   "removedVideosHeader": {
+      "message": "=== VIDEOS ELIMINADOS ({count} en total) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ Videos eliminados"
+   },
+   "reportIssueLink": {
+      "message": "🐛 Reportar problema"
+   },
+   "restartButton": {
+      "message": "🔄 Nueva sesión"
+   },
+   "resumeButton": {
+      "message": "▶️ Reanudar"
+   },
+   "retryButton": {
+      "message": "🔄 Reintentar"
+   },
+   "shareCardButton": {
+      "message": "Compartir tarjeta"
+   },
+   "shareCopyCaption": {
+      "message": "Copiar leyenda"
+   },
+   "shareModalTitle": {
+      "message": "Comparte tu limpieza"
+   },
+   "shareSaveImage": {
+      "message": "Guardar imagen"
+   },
+   "shareShuffleTitle": {
+      "message": "Sugerir eslogan aleatorio"
+   },
+   "shareTaglineLabel": {
+      "message": "Eslogan:"
+   },
+   "shareTaglinePlaceholder": {
+      "message": "Escribe el tuyo..."
+   },
+   "share_tagline_1": {
+      "message": "He eliminado todos mis reposts para poder empezar de cero y dejar atrás lo viejo"
+   },
+   "share_tagline_10": {
+      "message": "Reconstruyendo en silencio — sin spoilers esta vez"
+   },
+   "share_tagline_11": {
+      "message": "Sin migas de pan. Quien sabe, sabe"
+   },
+   "share_tagline_12": {
+      "message": "Seguí adelante. El algoritmo ya me alcanzará"
+   },
+   "share_tagline_13": {
+      "message": "Borrando los ecos. Conservando la voz"
+   },
+   "share_tagline_14": {
+      "message": "Menos ruido, más yo"
+   },
+   "share_tagline_15": {
+      "message": "Reescribiendo la línea temporal, desde aquí"
+   },
+   "share_tagline_2": {
+      "message": "Borrando todos los reposts para que él no sepa lo que hago ni lo que siento..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "Borro todos mis reposts porque a él nunca le importará"
+   },
+   "share_tagline_4": {
+      "message": "Eliminar todos mis reposts para empezar una nueva vida"
+   },
+   "share_tagline_5": {
+      "message": "Eliminé todos mis reposts, así que ya no puedes averiguar quién soy"
+   },
+   "share_tagline_6": {
+      "message": "Archivando mi pasado para hacer espacio al futuro"
+   },
+   "share_tagline_7": {
+      "message": "Reinicio suave: borro los reposts, conservo las lecciones"
+   },
+   "share_tagline_8": {
+      "message": "Dejar la pizarra en blanco, un repost a la vez"
+   },
+   "share_tagline_9": {
+      "message": "Adiós, ayer. Hola, mi versión 2.0"
+   },
+   "startButton": {
+      "message": "🧹 Borrar compartidos"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "No se encontró la pestaña Compartidos."
+   },
+   "statusDailyLimitReached": {
+      "message": "Límite diario alcanzado"
+   },
+   "statusFoundTotal": {
+      "message": "Se encontraron {total} compartidos."
+   },
+   "statusInitializing": {
+      "message": "Inicializando..."
+   },
+   "statusLabel": {
+      "message": "🧹 Estado:"
+   },
+   "statusLoadedSoFar": {
+      "message": "Cargados {count} compartidos..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "Buscando la pestaña Compartidos..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "Abriendo la pestaña Compartidos..."
+   },
+   "statusNavigatingProfile": {
+      "message": "Navegando a tu perfil..."
+   },
+   "statusOnRepostsTab": {
+      "message": "En Compartidos, mostrando resultados."
+   },
+   "statusOpeningFirstRepost": {
+      "message": "Abriendo el primer compartido..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "Procesando compartido {current} de {total}..."
+   },
+   "statusScrolling": {
+      "message": "Cargando compartidos iniciales..."
+   },
+   "statusStarting": {
+      "message": "Iniciando la limpieza de compartidos..."
+   },
+   "step1Description": {
+      "message": "Haz clic aquí para abrir TikTok.com e iniciar sesión en tu cuenta."
+   },
+   "step1Status": {
+      "message": "Haz clic para abrir TikTok.com"
+   },
+   "step1Title": {
+      "message": "Paso 1: Inicia sesión en TikTok.com"
+   },
+   "step2Title": {
+      "message": "Paso 2: Comenzar a eliminar"
+   },
+   "submitFeedbackButton": {
+      "message": "Enviar comentarios"
+   },
+   "thankYouForFeedback": {
+      "message": "¡Gracias por tu calificación de {rating} estrellas y tus comentarios!"
+   },
+   "thankYouForRating": {
+      "message": "¡Gracias por tu opinión!"
+   },
+   "unlockPlusButton": {
+      "message": "Eliminar más compartidos"
+   },
+   "videoRemovedAt": {
+      "message": "Eliminado el: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "Estado: Pendiente/Omitido"
+   },
+   "videoUnknownAuthor": {
+      "message": "Desconocido"
+   },
+   "videoUnknownTitle": {
+      "message": "Desconocido"
+   },
+   "viewLogButton": {
+      "message": "🧾 Ver registro"
+   }
+}

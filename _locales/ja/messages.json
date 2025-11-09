@@ -1,0 +1,461 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "まずステップ1をクリックしてTikTok.comを開いてください"
+   },
+   "allDoneTitle": {
+      "message": "完了！"
+   },
+   "alreadyRatedButton": {
+      "message": "すでに評価済み"
+   },
+   "appTitle": {
+      "message": "ClearTok - リポスト削除ツール"
+   },
+   "completionMessage": {
+      "message": "プロフィールから{count}個のリポスト動画を正常に削除しました。"
+   },
+   "completionMessageNoReposts": {
+      "message": "素晴らしい！プロフィールにリポスト動画は見つかりませんでした{duration}。"
+   },
+   "completionMessageSuccess": {
+      "message": "{count}個のリポスト動画{plural}を正常に削除しました{duration}。"
+   },
+   "copyRemovedButton": {
+      "message": "📋 削除リストをコピー"
+   },
+   "currentLanguage": {
+      "message": "日本語"
+   },
+   "dailyLimitReachedButton": {
+      "message": "リポストをさらに削除"
+   },
+   "durationMinutes": {
+      "message": " {minutes}分{seconds}秒で"
+   },
+   "durationSeconds": {
+      "message": " {seconds}秒で"
+   },
+   "errorMessage": {
+      "message": "再度お試しいただくか、コンソールで詳細を確認してください。"
+   },
+   "errorTitle": {
+      "message": "エラーが発生しました"
+   },
+   "exportButtonText": {
+      "message": "⬇️ エクスポート"
+   },
+   "exportButtonTitle": {
+      "message": "CSV をエクスポート"
+   },
+   "extDescription": {
+      "message": "TikTokのリポストを一括で即時削除 — スクロールもタップも不要。"
+   },
+   "extName": {
+      "message": "ClearTok - リポスト削除ツール"
+   },
+   "feedbackDescription": {
+      "message": "ClearTokをより良くするためのご提案をお聞かせください。"
+   },
+   "feedbackPlaceholder": {
+      "message": "ご意見やご提案をお聞かせください..."
+   },
+   "feedbackTitle": {
+      "message": "改善にご協力ください！💡"
+   },
+   "howItWorks1": {
+      "message": "TikTokプロフィールに移動"
+   },
+   "howItWorks2": {
+      "message": "リポストタブを見つけて開く"
+   },
+   "howItWorks3": {
+      "message": "すべてのリポスト動画を自動削除"
+   },
+   "howItWorks4": {
+      "message": "リアルタイム進捗追跡"
+   },
+   "howItWorksTitle": {
+      "message": "📖 仕組み"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ 重要な注意事項"
+   },
+   "languageSelector": {
+      "message": "🌐 言語"
+   },
+   "logError": {
+      "message": "エラー: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ 削除済み動画リストのコピーに失敗しました"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ URLのコピーに失敗しました"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 結果を表示するためにリポストタブに移動中..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ リポストが見つかりませんでした - あなたのプロフィールはクリーンです！{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ ページが正常に更新されました"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 プロセス完了！{count}個の動画を削除しました{duration}。"
+   },
+   "logProcessPaused": {
+      "message": "ユーザーによってプロセスが一時停止されました"
+   },
+   "logProcessResumed": {
+      "message": "プロセスが再開されました"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 更新されたコンテンツを表示するためにTikTokページを更新中..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 削除済み動画リストをクリップボードにコピーしました"
+   },
+   "logStartingProcess": {
+      "message": "🚀 リポスト削除プロセスを開始しています..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ ページを自動更新できませんでした"
+   },
+   "logVideoRemoved": {
+      "message": "リポスト #{number} を削除しました"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "{author}のリポストを削除しました"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "削除済み: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "削除済み: \"{title}\" by {author}"
+   },
+   "logVideoSkipped": {
+      "message": "#{number} をスキップしました"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "{author}の動画をスキップしました"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "スキップ: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "スキップ: \"{title}\" by {author}"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 動画URLをクリップボードにコピーしました"
+   },
+   "logWaitingPaused": {
+      "message": "プロセスが一時停止されました"
+   },
+   "logWaitingSeconds": {
+      "message": "{seconds}秒待機中..."
+   },
+   "loginStatusDefault": {
+      "message": "TikTok.comを開くにはクリック"
+   },
+   "loginStatusError": {
+      "message": "TikTokを開くエラー - 再試行してください"
+   },
+   "loginStatusLoggedIn": {
+      "message": "ログイン済み - 開始準備完了！"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "まずTikTokにログインしてください"
+   },
+   "loginStatusOpening": {
+      "message": "TikTok.comを開いています..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.comが開いています - 開始準備完了！"
+   },
+   "noRemovedVideos": {
+      "message": "まだ削除された動画はありません"
+   },
+   "noRepostsFoundMessage": {
+      "message": "素晴らしい！プロフィールにリポストはありません。"
+   },
+   "note1Description": {
+      "message": "TikTok.comを開いてログイン状態を保つ"
+   },
+   "note1Title": {
+      "message": "ログイン状態を保つ:"
+   },
+   "note2Description": {
+      "message": "プロセスが自然に完了するまで待つ"
+   },
+   "note2Title": {
+      "message": "中断しない:"
+   },
+   "note3Description": {
+      "message": "プロセス速度は接続状況に依存"
+   },
+   "note3Title": {
+      "message": "ネットワーク速度:"
+   },
+   "note4Description": {
+      "message": "リポストのみ削除、元の動画は安全"
+   },
+   "note4Title": {
+      "message": "安全な操作:"
+   },
+   "notificationCaptionCopied": {
+      "message": "キャプションをコピーしました"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "コピーに失敗しました"
+   },
+   "notificationExportFailed": {
+      "message": "❌ CSVのエクスポートに失敗しました"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ CSVとしてエクスポートしました"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ リストをクリップボードにコピーできませんでした"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ URLをクリップボードにコピーできませんでした"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ 無効な動画URLです"
+   },
+   "notificationListCopied": {
+      "message": "📋 削除済み動画リストが正常にコピーされました！"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ リポスト動画が見つかりません！"
+   },
+   "notificationNoUrls": {
+      "message": "📝 動画URLはまだ利用できません。削除プロセスを開始すると動画URLが表示されます。"
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 TikTokページが更新されました、リポストに移動中..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ 続行するには TikTok.com にログインしてください"
+   },
+   "notificationShareSaved": {
+      "message": "シェアカードを保存しました"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 動画URLがクリップボードに正常にコピーされました！"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 新しいタブで動画を開きました"
+   },
+   "pauseButton": {
+      "message": "⏸️ 一時停止"
+   },
+   "pendingVideosHeader": {
+      "message": "=== 保留中/処理済み動画 ==="
+   },
+   "pleaseRateUs": {
+      "message": "評価をお願いします"
+   },
+   "privacy1": {
+      "message": "✅ パスワードは保存されません"
+   },
+   "privacy2": {
+      "message": "✅ データは収集されません"
+   },
+   "privacy3": {
+      "message": "✅ ブラウザ内でローカルに動作"
+   },
+   "privacy4": {
+      "message": "✅ オープンソースで透明"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 プライバシーとセキュリティ"
+   },
+   "progressLabel": {
+      "message": "📊 進捗:"
+   },
+   "rateThisExtension": {
+      "message": "この拡張機能を評価"
+   },
+   "rateUsActionButton": {
+      "message": "評価する"
+   },
+   "rateUsButton": {
+      "message": "⭐ 評価する"
+   },
+   "recheckLoginTitle": {
+      "message": "ログインを再確認"
+   },
+   "removedVideosHeader": {
+      "message": "=== 削除済み動画 ({count}個) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ 削除済み動画"
+   },
+   "reportIssueLink": {
+      "message": "🐛 問題を報告"
+   },
+   "restartButton": {
+      "message": "🔄 新しいセッションを開始"
+   },
+   "resumeButton": {
+      "message": "▶️ 再開"
+   },
+   "retryButton": {
+      "message": "🔄 再試行"
+   },
+   "shareCardButton": {
+      "message": "シェアカードを作成"
+   },
+   "shareCopyCaption": {
+      "message": "キャプションをコピー"
+   },
+   "shareModalTitle": {
+      "message": "クリーンアップをシェア"
+   },
+   "shareSaveImage": {
+      "message": "画像を保存"
+   },
+   "shareShuffleTitle": {
+      "message": "ランダムにタグラインを提案"
+   },
+   "shareTaglineLabel": {
+      "message": "タグライン："
+   },
+   "shareTaglinePlaceholder": {
+      "message": "自分の言葉を書いてください…"
+   },
+   "share_tagline_1": {
+      "message": "すべてのリポストを削除して、いまから新しく始める。過去はここに置いていく"
+   },
+   "share_tagline_10": {
+      "message": "静かに再構築中—今回はネタバレなしで"
+   },
+   "share_tagline_11": {
+      "message": "パンくずは残さない。知っている人だけ知っていればいい"
+   },
+   "share_tagline_12": {
+      "message": "前に進んだ。アルゴリズムは後から追いつく"
+   },
+   "share_tagline_13": {
+      "message": "反響は消して、声だけ残す"
+   },
+   "share_tagline_14": {
+      "message": "ノイズを減らして、もっと私らしく"
+   },
+   "share_tagline_15": {
+      "message": "タイムラインを書き換える。ここから"
+   },
+   "share_tagline_2": {
+      "message": "彼に私が何をしているかも、どう感じているかも知られないように、リポストを全部消す..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "彼はきっと気にしないから、全部のリポストを消す"
+   },
+   "share_tagline_4": {
+      "message": "新しい人生を始めるために、すべてのリポストを削除"
+   },
+   "share_tagline_5": {
+      "message": "もう私が誰か、あなたには分からないようにリポストを全部消した"
+   },
+   "share_tagline_6": {
+      "message": "未来のために、過去をアーカイブ中"
+   },
+   "share_tagline_7": {
+      "message": "ソフトリセット：リポストは消して、学びは残す"
+   },
+   "share_tagline_8": {
+      "message": "一度にひとつ、リポストを消して真っさらに"
+   },
+   "share_tagline_9": {
+      "message": "さようなら昨日。こんにちは、私のバージョン2.0"
+   },
+   "startButton": {
+      "message": "🧹 リポスト削除を開始"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "リポストタブが見つかりません。"
+   },
+   "statusDailyLimitReached": {
+      "message": "1日の上限に達しました"
+   },
+   "statusFoundTotal": {
+      "message": "{total} 件のリポストを検出。"
+   },
+   "statusInitializing": {
+      "message": "初期化中..."
+   },
+   "statusLabel": {
+      "message": "🧹 ステータス:"
+   },
+   "statusLoadedSoFar": {
+      "message": "{count} 件のリポストを読み込み済み..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "リポストタブを検索中..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "「リポスト」タブを開いています..."
+   },
+   "statusNavigatingProfile": {
+      "message": "プロフィールへ移動中..."
+   },
+   "statusOnRepostsTab": {
+      "message": "リポストタブで結果を表示中。"
+   },
+   "statusOpeningFirstRepost": {
+      "message": "最初のリポストを開いています..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "{total} 件中 {current} 件目を処理中..."
+   },
+   "statusScrolling": {
+      "message": "初期リポストを読み込み中..."
+   },
+   "statusStarting": {
+      "message": "リポスト削除を開始中..."
+   },
+   "step1Description": {
+      "message": "こちらをクリックしてTikTok.comを開き、アカウントにログインしてください。"
+   },
+   "step1Status": {
+      "message": "TikTok.comを開くにはクリック"
+   },
+   "step1Title": {
+      "message": "ステップ1: TikTok.comにログイン"
+   },
+   "step2Title": {
+      "message": "ステップ2: 削除を開始"
+   },
+   "submitFeedbackButton": {
+      "message": "フィードバックを送信"
+   },
+   "thankYouForFeedback": {
+      "message": "{rating}つ星の評価とフィードバックをありがとうございます！"
+   },
+   "thankYouForRating": {
+      "message": "評価いただきありがとうございます！"
+   },
+   "unlockPlusButton": {
+      "message": "リポストをさらに削除"
+   },
+   "videoRemovedAt": {
+      "message": "削除日時: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "ステータス: 保留中/スキップ済み"
+   },
+   "videoUnknownAuthor": {
+      "message": "不明"
+   },
+   "videoUnknownTitle": {
+      "message": "不明"
+   },
+   "viewLogButton": {
+      "message": "🧾 ログを表示"
+   }
+}

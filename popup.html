@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title data-i18n="appTitle">ClearTok - Repost Remover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sidebar-container">
+      <!-- Header -->
+      <header class="sidebar-header">
+        <a href="https://tiktokrepostremover.com/" class="logo-link" target="_blank">
+        <div class="logo">
+          <img src="icon.png" alt="ClearTok Logo" />
+          <h1 class="title" data-i18n="appTitle">ClearTok - Repost Remover</h1>
+        </div>
+      </a>
+      </header>
+
+      <!-- Main Content -->
+      <div class="sidebar-content">
+        <!-- Welcome State -->
+        <div id="welcomeState" class="state">
+          <!-- Step 1: Open TikTok -->
+          <div class="step-card clickable" id="openTikTokStep">
+            <h3 data-i18n="step1Title">Step 1: Sign in to TikTok.com</h3>
+            <p data-i18n="step1Description">Click here to open TikTok.com and sign in to your account.</p>
+            <div class="step-status" id="loginStatus">
+              <span class="status-indicator">👆</span>
+              <span data-i18n="step1Status">Click to open TikTok.com</span>
+              <button class="recheck-button" id="recheckButton" data-i18n-title="recheckLoginTitle" title="Re-check login status">
+                <svg class="recheck-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M23 4v6h-6"></path>
+                  <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Start Button -->
+          <div class="step-card" id="step2Card">
+            <h3 data-i18n="step2Title">Step 2: Start Removing</h3>
+            <button id="startButton" class="primary-button" data-i18n="startButton">
+              🧹 Start Removing Reposts
+            </button>
+          </div>
+        </div>
+
+        <!-- Processing State -->
+        <div id="processingState" class="state hidden">
+          <div class="status-card">
+            <div class="status-item">
+              <span class="status-label" data-i18n="statusLabel">🧹 Status:</span>
+              <span id="statusMessage">Initializing...</span>
+            </div>
+            
+            <div class="status-item">
+              <span class="status-label" data-i18n="progressLabel">📊 Progress:</span>
+              <div class="progress-container">
+                <div class="progress-bar">
+                  <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <span id="progressText">0 / 0</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="controls">
+            <button id="pauseButton" class="control-button pause" data-i18n="pauseButton">
+              ⏸️ Pause
+            </button>
+            <button id="viewLogButton" class="control-button secondary" data-i18n="viewLogButton">
+              🧾 View Log
+            </button>
+          </div>
+        
+          <div class="log-container">
+            <div id="actionLog" class="action-log">
+              </div>
+          </div>
+        
+          <div class="removed-videos-section">
+            <h4 class="section-title">
+              <span data-i18n="removedVideosTitle">🗑️ Removed Videos</span>
+              (<span id="removedCount">0</span>)
+              <button id="exportRemovedButton" class="export-btn" data-i18n-title="exportButtonTitle" title="Export CSV"><span data-i18n="exportButtonText">⬇️ Export</span></button>
+            </h4>
+            <div id="removedVideosList" class="removed-videos-list">
+              </div>
+          </div>
+        </div>
+
+        <!-- Complete State -->
+        <div id="completeState" class="state hidden">
+          <div class="completion-card">
+            <div class="completion-icon">🎉</div>
+            <h3 data-i18n="allDoneTitle">All Done!</h3>
+            <p id="completionMessage"></p>
+            <div class="completion-actions">
+              <button id="rateUsButtonComplete" class="primary-button" data-i18n="rateUsButton">
+                Rate Us
+              </button>
+              <button id="shareCardButton" class="secondary-button" style="display: none;" data-i18n="shareCardButton">
+                Share Card
+              </button>
+            </div>
+          </div>
+
+          <!-- Removed Videos List for Complete State -->
+          <div class="removed-videos-section">
+            <h4 class="section-title">
+              <span data-i18n="removedVideosTitle">🗑️ Removed Videos</span>
+              (<span id="removedCountComplete">0</span>)
+              <button id="exportRemovedButtonComplete" class="export-btn" data-i18n-title="exportButtonTitle" title="Export CSV"><span data-i18n="exportButtonText">⬇️ Export</span></button>
+            </h4>
+            <div id="removedVideosListComplete" class="removed-videos-list">
+              <!-- Removed videos will be added here dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorState" class="state hidden">
+          <div class="error-card">
+            <div class="error-icon">⚠️</div>
+            <h3 data-i18n="errorTitle">Something went wrong</h3>
+            <p id="errorMessage" data-i18n="errorMessage">Please try again or check the console for details.</p>
+            <button id="retryButton" class="primary-button" data-i18n="retryButton">
+              🔄 Try Again
+            </button>
+          </div>
+        </div>
+
+        <!-- Introduction and Notes Section -->
+        <div class="info-section">
+          <div class="info-card">
+            <h4 data-i18n="howItWorksTitle">📖 How it works</h4>
+            <ul class="info-list">
+              <li data-i18n="howItWorks1">Navigate to your TikTok profile</li>
+              <li data-i18n="howItWorks2">Find and open the Reposts tab</li>
+              <li data-i18n="howItWorks3">Automatically remove all reposted videos</li>
+              <li data-i18n="howItWorks4">Real-time progress tracking</li>
+            </ul>
+          </div>
+
+          <div class="notes-card">
+            <h4 data-i18n="importantNotesTitle">⚠️ Important Notes</h4>
+            <ul class="notes-list">
+              <li><strong data-i18n="note1Title">Stay logged in:</strong> <span data-i18n="note1Description">Keep TikTok.com open and logged in</span></li>
+              <li><strong data-i18n="note2Title">Don't interrupt:</strong> <span data-i18n="note2Description">Let the process complete naturally</span></li>
+              <li><strong data-i18n="note3Title">Network speed:</strong> <span data-i18n="note3Description">Process speed depends on your connection</span></li>
+              <li><strong data-i18n="note4Title">Safe operation:</strong> <span data-i18n="note4Description">Only removes reposts, original videos are safe</span></li>
+            </ul>
+          </div>
+
+          <div class="security-card">
+            <h4 data-i18n="privacySecurityTitle">🔒 Privacy & Security</h4>
+            <ul class="security-list">
+              <li data-i18n="privacy1">✅ No passwords stored</li>
+              <li data-i18n="privacy2">✅ No data collected</li>
+              <li data-i18n="privacy3">✅ Works locally in your browser</li>
+              <li data-i18n="privacy4">✅ Open source & transparent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fixed Bottom Action Bar -->
+      <footer class="sidebar-footer-fixed">
+        <div class="footer-bar">
+          <div class="footer-auth" id="footerAuth"></div>
+
+          <div class="footer-actions">
+            <button class="footer-action-btn rate-btn" id="rateUsButton">
+              <span class="action-text" data-i18n="rateUsButton">Rate us</span>
+            </button>
+            
+            <div class="footer-action-btn language-btn" id="languageSelectorBtn">
+              <span class="flag-icon">🇺🇸</span>
+              <span class="action-text" data-i18n="currentLanguage">English</span>
+            </div>
+            
+            <a href="mailto:support@tiktokrepostremover.com" class="footer-action-btn email-btn" data-i18n-title="reportIssueLink">
+              <span class="action-icon">✉️</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Language Selection Modal -->
+        <div id="languageModal" class="modal-overlay hidden">
+          <div class="language-modal">
+            <button id="closeLanguageModal" class="close-btn">✕</button>
+            
+            <div class="language-grid">
+              <div class="language-option" data-lang="ar">
+                <span class="flag">🇸🇦</span>
+                <span class="lang-name">العربية</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="de">
+                <span class="flag">🇩🇪</span>
+                <span class="lang-name">Deutsch</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="en" id="currentLanguage">
+                <span class="flag">🇺🇸</span>
+                <span class="lang-name">English</span>
+                <span class="checkmark">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="zh_CN">
+                <span class="flag">🇨🇳</span>
+                <span class="lang-name">简体中文</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="es">
+                <span class="flag">🇪🇸</span>
+                <span class="lang-name">Español</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="fr">
+                <span class="flag">🇫🇷</span>
+                <span class="lang-name">Français</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="id">
+                <span class="flag">🇮🇩</span>
+                <span class="lang-name">Indonesian</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="it">
+                <span class="flag">🇮🇹</span>
+                <span class="lang-name">Italiano</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="ja">
+                <span class="flag">🇯🇵</span>
+                <span class="lang-name">日本語</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="ko">
+                <span class="flag">🇰🇷</span>
+                <span class="lang-name">한국어</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="ms">
+                <span class="flag">🇲🇾</span>
+                <span class="lang-name">Bahasa Melayu</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="nl">
+                <span class="flag">🇳🇱</span>
+                <span class="lang-name">Nederlands</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="pt_BR">
+                <span class="flag">🇧🇷</span>
+                <span class="lang-name">Português (Brasil)</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+              
+              <div class="language-option" data-lang="tr">
+                <span class="flag">🇹🇷</span>
+                <span class="lang-name">Türkçe</span>
+                <span class="checkmark hidden">✓</span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Rating Modal -->
+    <div id="ratingModal" class="modal-overlay hidden">
+      <div class="rating-modal">
+        <div class="rating-header">
+          <div class="rating-trophy">🏆</div>
+          <h3 data-i18n="rateThisExtension">Rate This Extension</h3>
+        </div>
+        
+        <div class="rating-container">
+          <div class="stars-container">
+            <div class="star" data-rating="1">⭐</div>
+            <div class="star" data-rating="2">⭐</div>
+            <div class="star" data-rating="3">⭐</div>
+            <div class="star" data-rating="4">⭐</div>
+            <div class="star" data-rating="5">⭐</div>
+          </div>
+          
+          <div class="rating-labels">
+            <span class="rating-label" data-rating="1">Bad</span>
+            <span class="rating-label" data-rating="2">Okay</span>
+            <span class="rating-label" data-rating="3">Good</span>
+            <span class="rating-label" data-rating="4">Great</span>
+            <span class="rating-label" data-rating="5">Love it!</span>
+          </div>
+        </div>
+        
+        <div class="rating-message">
+          <p data-i18n="pleaseRateUs">Please Rate Us</p>
+        </div>
+        
+        <!-- Feedback Section (hidden by default) -->
+        <div id="feedbackSection" class="feedback-section hidden">
+          <div class="feedback-header">
+            <h4 data-i18n="feedbackTitle">Help us improve! 💡</h4>
+            <p data-i18n="feedbackDescription">We'd love to hear your suggestions to make ClearTok better.</p>
+          </div>
+          <div class="feedback-input-container">
+            <textarea 
+              id="feedbackInput" 
+              class="feedback-textarea" 
+              placeholder="Share your thoughts and suggestions..." 
+              data-i18n-placeholder="feedbackPlaceholder"
+              maxlength="500"
+              rows="4"></textarea>
+            <div class="feedback-char-count">
+              <span id="feedbackCharCount">0</span>/500
+            </div>
+          </div>
+        </div>
+        
+        <div class="rating-actions">
+          <button id="rateUsActionButton" class="rating-action-button" data-i18n="rateUsActionButton">
+            Rate Us
+          </button>
+          <button id="submitFeedbackButton" class="rating-action-button feedback-submit hidden" data-i18n="submitFeedbackButton">
+            Submit Feedback
+          </button>
+          <button id="alreadyRatedButton" class="already-rated-button" data-i18n="alreadyRatedButton">
+            I've already done it
+          </button>
+        </div>
+      </div>
+    </div>
+
+      <!-- Share Modal -->
+      <div id="shareModal" class="modal-overlay hidden">
+        <div class="share-modal">
+          <div class="share-header">
+            <button id="closeShareModal" class="close-btn">✕</button>
+          </div>
+          <div class="share-preview">
+            <canvas id="sharePreviewCanvas" width="324" height="576"></canvas>
+          </div>
+          <div class="share-controls">
+            <button id="shareTaglineShuffleBtn" class="icon-button" type="button" title="Shuffle a random tagline" data-i18n-title="shareShuffleTitle" aria-label="Shuffle tagline">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 3 21 3 21 8"/>
+                <path d="M4 20l7-7 4 4"/>
+                <polyline points="21 16 21 21 16 21"/>
+                <path d="M4 4l7 7 4-4"/>
+              </svg>
+            </button>
+            <label class="control" style="flex: 1;">
+              <span data-i18n="shareTaglineLabel">Tagline:</span>
+              <input id="shareTaglineInput" type="text" placeholder="Write your own..." data-i18n-placeholder="shareTaglinePlaceholder" style="width:100%" />
+            </label>
+          </div>
+          <div class="share-actions">
+            <button id="shareSaveBtn" class="primary-button" data-i18n="shareSaveImage">Save Image</button>
+            <button id="shareCopyCaptionBtn" class="secondary-button" data-i18n="shareCopyCaption">Copy Caption</button>
+          </div>
+        </div>
+      </div>
+
+      <script src="i18n.js"></script>
+  <script src="api-service.js"></script>
+  <!-- 新的模块化架构 -->
+  <script src="popup/modules/utils.js"></script>
+  <script src="popup/modules/message-service.js"></script>
+  <script src="popup/modules/session-auth.js"></script>
+  <script src="popup/modules/process-logger.js"></script>
+  <script src="popup/modules/modals.js"></script>
+  <script src="popup.js"></script>
+  </body>
+</html>

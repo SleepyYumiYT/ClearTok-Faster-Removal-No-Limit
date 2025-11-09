@@ -1,0 +1,461 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "Open eerst TikTok.com door op Stap 1 te klikken"
+   },
+   "allDoneTitle": {
+      "message": "Alles klaar!"
+   },
+   "alreadyRatedButton": {
+      "message": "Ik heb al beoordeeld"
+   },
+   "appTitle": {
+      "message": "ClearTok - Repost Verwijderaar"
+   },
+   "completionMessage": {
+      "message": "Succesvol {count} gereposte video's van je profiel verwijderd."
+   },
+   "completionMessageNoReposts": {
+      "message": "Mooi! Geen gereposte video's gevonden op je profiel{duration}."
+   },
+   "completionMessageSuccess": {
+      "message": "Succesvol {count} gereposte video{plural} verwijderd{duration}."
+   },
+   "copyRemovedButton": {
+      "message": "📋 Verwijderde lijst kopiëren"
+   },
+   "currentLanguage": {
+      "message": "Nederlands"
+   },
+   "dailyLimitReachedButton": {
+      "message": "Meer reposts verwijderen"
+   },
+   "durationMinutes": {
+      "message": " in {minutes} min {seconds} seconden"
+   },
+   "durationSeconds": {
+      "message": " in {seconds} seconden"
+   },
+   "errorMessage": {
+      "message": "Probeer het opnieuw of bekijk de console voor details."
+   },
+   "errorTitle": {
+      "message": "Er is iets misgegaan"
+   },
+   "exportButtonText": {
+      "message": "⬇️ Exporteren"
+   },
+   "exportButtonTitle": {
+      "message": "CSV exporteren"
+   },
+   "extDescription": {
+      "message": "Verwijder direct al je TikTok‑reposts — geen scrollen, geen tikken."
+   },
+   "extName": {
+      "message": "ClearTok - Repost Verwijderaar"
+   },
+   "feedbackDescription": {
+      "message": "We horen graag je suggesties om ClearTok beter te maken."
+   },
+   "feedbackPlaceholder": {
+      "message": "Deel je gedachten en suggesties..."
+   },
+   "feedbackTitle": {
+      "message": "Help ons verbeteren! 💡"
+   },
+   "howItWorks1": {
+      "message": "Ga naar je TikTok-profiel"
+   },
+   "howItWorks2": {
+      "message": "Zoek en open het tabblad Reposts"
+   },
+   "howItWorks3": {
+      "message": "Verwijdert automatisch alle gereposte video's"
+   },
+   "howItWorks4": {
+      "message": "Voortgang in realtime bijhouden"
+   },
+   "howItWorksTitle": {
+      "message": "📖 Hoe het werkt"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ Belangrijke opmerkingen"
+   },
+   "languageSelector": {
+      "message": "🌐 Taal"
+   },
+   "logError": {
+      "message": "Fout: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ Kopiëren van verwijderde video's mislukt"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ Kopiëren van URL's mislukt"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 Navigeren naar het Reposts-tabblad om resultaten te tonen..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ Geen reposts gevonden - je profiel is schoon!{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ Pagina succesvol vernieuwd"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 Proces voltooid! {count} video's verwijderd{duration}."
+   },
+   "logProcessPaused": {
+      "message": "Proces gepauzeerd door gebruiker"
+   },
+   "logProcessResumed": {
+      "message": "Proces hervat"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 TikTok-pagina wordt vernieuwd om bijgewerkte inhoud te tonen..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 Lijst met verwijderde video's gekopieerd"
+   },
+   "logStartingProcess": {
+      "message": "🚀 Verwijderproces voor reposts gestart..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ Kan pagina niet automatisch vernieuwen"
+   },
+   "logVideoRemoved": {
+      "message": "Repost #{number} verwijderd"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "Repost verwijderd van {author}"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "Verwijderd: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "Verwijderd: \"{title}\" van {author}"
+   },
+   "logVideoSkipped": {
+      "message": "Overgeslagen #{number}"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "Video overgeslagen van {author}"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "Overgeslagen: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "Overgeslagen: \"{title}\" van {author}"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 Video-URL's gekopieerd"
+   },
+   "logWaitingPaused": {
+      "message": "Proces gepauzeerd"
+   },
+   "logWaitingSeconds": {
+      "message": "Wachten {seconds}s..."
+   },
+   "loginStatusDefault": {
+      "message": "Klik om TikTok.com te openen"
+   },
+   "loginStatusError": {
+      "message": "Fout bij openen van TikTok - Probeer opnieuw"
+   },
+   "loginStatusLoggedIn": {
+      "message": "Ingelogd - Klaar om te beginnen!"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "Log eerst in op TikTok"
+   },
+   "loginStatusOpening": {
+      "message": "TikTok.com wordt geopend..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.com is geopend - Klaar om te beginnen!"
+   },
+   "noRemovedVideos": {
+      "message": "Nog geen video's verwijderd"
+   },
+   "noRepostsFoundMessage": {
+      "message": "Mooi! Geen reposts gevonden op je profiel."
+   },
+   "note1Description": {
+      "message": "Houd TikTok.com open en ingelogd"
+   },
+   "note1Title": {
+      "message": "Blijf ingelogd:"
+   },
+   "note2Description": {
+      "message": "Laat het proces vanzelf voltooien"
+   },
+   "note2Title": {
+      "message": "Niet onderbreken:"
+   },
+   "note3Description": {
+      "message": "De snelheid hangt af van je verbinding"
+   },
+   "note3Title": {
+      "message": "Netwerksnelheid:"
+   },
+   "note4Description": {
+      "message": "Verwijdert alleen reposts, originele video's blijven behouden"
+   },
+   "note4Title": {
+      "message": "Veilige werking:"
+   },
+   "notificationCaptionCopied": {
+      "message": "Onderschrift gekopieerd"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "Kopiëren mislukt"
+   },
+   "notificationExportFailed": {
+      "message": "❌ CSV-export mislukt"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ Lijst geëxporteerd als CSV"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ Kopiëren van lijst naar klembord mislukt"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ Kopiëren van URL's naar klembord mislukt"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ Ongeldige video-URL"
+   },
+   "notificationListCopied": {
+      "message": "📋 Lijst met verwijderde video's succesvol gekopieerd!"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ Geen gereposte video's gevonden!"
+   },
+   "notificationNoUrls": {
+      "message": "📝 Nog geen video-URL's beschikbaar. Start het verwijderproces om URL's te zien."
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 TikTok-pagina vernieuwd, navigeren naar reposts..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ Log in op TikTok.com om door te gaan"
+   },
+   "notificationShareSaved": {
+      "message": "Deelkaart opgeslagen"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 Video-URL's succesvol gekopieerd!"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 Video geopend in nieuw tabblad"
+   },
+   "pauseButton": {
+      "message": "⏸️ Pauze"
+   },
+   "pendingVideosHeader": {
+      "message": "=== WACHTENDE/VERWERKTE VIDEO'S ==="
+   },
+   "pleaseRateUs": {
+      "message": "Beoordeel ons alsjeblieft"
+   },
+   "privacy1": {
+      "message": "✅ Geen wachtwoorden opgeslagen"
+   },
+   "privacy2": {
+      "message": "✅ Geen gegevens verzameld"
+   },
+   "privacy3": {
+      "message": "✅ Werkt lokaal in je browser"
+   },
+   "privacy4": {
+      "message": "✅ Open source & transparant"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 Privacy & Beveiliging"
+   },
+   "progressLabel": {
+      "message": "📊 Voortgang:"
+   },
+   "rateThisExtension": {
+      "message": "Deze extensie beoordelen"
+   },
+   "rateUsActionButton": {
+      "message": "Beoordeel"
+   },
+   "rateUsButton": {
+      "message": "⭐ Beoordeel ons"
+   },
+   "recheckLoginTitle": {
+      "message": "Inloggen opnieuw controleren"
+   },
+   "removedVideosHeader": {
+      "message": "=== VERWIJDERDE VIDEO'S ({count} totaal) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ Verwijderde video's"
+   },
+   "reportIssueLink": {
+      "message": "🐛 Probleem melden"
+   },
+   "restartButton": {
+      "message": "🔄 Nieuwe sessie starten"
+   },
+   "resumeButton": {
+      "message": "▶️ Hervatten"
+   },
+   "retryButton": {
+      "message": "🔄 Opnieuw proberen"
+   },
+   "shareCardButton": {
+      "message": "Kaart delen"
+   },
+   "shareCopyCaption": {
+      "message": "Onderschrift kopiëren"
+   },
+   "shareModalTitle": {
+      "message": "Je opschoning delen"
+   },
+   "shareSaveImage": {
+      "message": "Afbeelding opslaan"
+   },
+   "shareShuffleTitle": {
+      "message": "Willekeurige tagline voorstellen"
+   },
+   "shareTaglineLabel": {
+      "message": "Tagline:"
+   },
+   "shareTaglinePlaceholder": {
+      "message": "Schrijf je eigen..."
+   },
+   "share_tagline_1": {
+      "message": "Ik heb al mijn reposts verwijderd om opnieuw te beginnen en het oude achter me te laten"
+   },
+   "share_tagline_10": {
+      "message": "In stilte opnieuw opbouwen — dit keer zonder spoilers"
+   },
+   "share_tagline_11": {
+      "message": "Geen kruimels meer. Wie het weet, weet het"
+   },
+   "share_tagline_12": {
+      "message": "Ik ben verdergegaan. Het algoritme haalt later wel in"
+   },
+   "share_tagline_13": {
+      "message": "Echo’s verwijderen. De stem behouden"
+   },
+   "share_tagline_14": {
+      "message": "Minder ruis, meer ik"
+   },
+   "share_tagline_15": {
+      "message": "De tijdlijn herschrijven, vanaf hier"
+   },
+   "share_tagline_2": {
+      "message": "Alle reposts verwijderen zodat hij niet weet wat ik doe of voel..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "Ik verwijder al mijn reposts omdat het hem toch nooit iets zal schelen"
+   },
+   "share_tagline_4": {
+      "message": "Alle reposts verwijderen om een nieuw leven te beginnen"
+   },
+   "share_tagline_5": {
+      "message": "Ik heb al mijn reposts verwijderd zodat je niet kunt ontdekken wie ik ben"
+   },
+   "share_tagline_6": {
+      "message": "Mijn verleden archiveren om ruimte te maken voor de toekomst"
+   },
+   "share_tagline_7": {
+      "message": "Zachte reset: reposts weg, lessen behouden"
+   },
+   "share_tagline_8": {
+      "message": "De lei schoonvegen, één repost tegelijk"
+   },
+   "share_tagline_9": {
+      "message": "Vaarwel gisteren. Hallo, versie 2.0 van mij"
+   },
+   "startButton": {
+      "message": "🧹 Start met Reposts Verwijderen"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "Reposts-tab niet gevonden."
+   },
+   "statusDailyLimitReached": {
+      "message": "Dagslimiet bereikt"
+   },
+   "statusFoundTotal": {
+      "message": "{total} reposts gevonden."
+   },
+   "statusInitializing": {
+      "message": "Initialiseren..."
+   },
+   "statusLabel": {
+      "message": "🧹 Status:"
+   },
+   "statusLoadedSoFar": {
+      "message": "Tot nu toe {count} reposts geladen..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "Reposts-tab zoeken..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "Reposts-tab openen..."
+   },
+   "statusNavigatingProfile": {
+      "message": "Naar je profiel gaan..."
+   },
+   "statusOnRepostsTab": {
+      "message": "Op de Reposts-tab — resultaten tonen."
+   },
+   "statusOpeningFirstRepost": {
+      "message": "Eerste repost openen..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "Repost {current} van {total} verwerken..."
+   },
+   "statusScrolling": {
+      "message": "Initiële reposts laden..."
+   },
+   "statusStarting": {
+      "message": "Opschonen van reposts starten..."
+   },
+   "step1Description": {
+      "message": "Klik hier om TikTok.com te openen en in te loggen op je account."
+   },
+   "step1Status": {
+      "message": "Klik om TikTok.com te openen"
+   },
+   "step1Title": {
+      "message": "Stap 1: Meld je aan bij TikTok.com"
+   },
+   "step2Title": {
+      "message": "Stap 2: Begin met Verwijderen"
+   },
+   "submitFeedbackButton": {
+      "message": "Feedback versturen"
+   },
+   "thankYouForFeedback": {
+      "message": "Bedankt voor je {rating}-sterren beoordeling en feedback!"
+   },
+   "thankYouForRating": {
+      "message": "Bedankt voor je feedback!"
+   },
+   "unlockPlusButton": {
+      "message": "Meer reposts verwijderen"
+   },
+   "videoRemovedAt": {
+      "message": "Verwijderd op: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "Status: Wachtend/Overgeslagen"
+   },
+   "videoUnknownAuthor": {
+      "message": "Onbekend"
+   },
+   "videoUnknownTitle": {
+      "message": "Onbekend"
+   },
+   "viewLogButton": {
+      "message": "🧾 Log bekijken"
+   }
+}

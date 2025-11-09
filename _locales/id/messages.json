@@ -1,0 +1,461 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "Silakan buka TikTok.com terlebih dahulu dengan mengklik Langkah 1"
+   },
+   "allDoneTitle": {
+      "message": "Selesai!"
+   },
+   "alreadyRatedButton": {
+      "message": "Saya sudah melakukannya"
+   },
+   "appTitle": {
+      "message": "ClearTok - Penghapus Repost"
+   },
+   "completionMessage": {
+      "message": "Berhasil menghapus {count} video repost dari profil Anda."
+   },
+   "completionMessageNoReposts": {
+      "message": "Bagus! Tidak ada video repost ditemukan di profil Anda{duration}."
+   },
+   "completionMessageSuccess": {
+      "message": "Berhasil menghapus {count} video repost{plural}{duration}."
+   },
+   "copyRemovedButton": {
+      "message": "📋 Salin Daftar Terhapus"
+   },
+   "currentLanguage": {
+      "message": "Bahasa Indonesia"
+   },
+   "dailyLimitReachedButton": {
+      "message": "Hapus lebih banyak repost"
+   },
+   "durationMinutes": {
+      "message": " dalam {minutes} menit {seconds} detik"
+   },
+   "durationSeconds": {
+      "message": " dalam {seconds} detik"
+   },
+   "errorMessage": {
+      "message": "Silakan coba lagi atau periksa konsol untuk detail."
+   },
+   "errorTitle": {
+      "message": "Terjadi kesalahan"
+   },
+   "exportButtonText": {
+      "message": "⬇️ Ekspor"
+   },
+   "exportButtonTitle": {
+      "message": "Ekspor CSV"
+   },
+   "extDescription": {
+      "message": "Hapus semua repost TikTok Anda seketika — tanpa scroll, tanpa ketuk."
+   },
+   "extName": {
+      "message": "ClearTok - Penghapus Repost"
+   },
+   "feedbackDescription": {
+      "message": "Kami ingin mendengar saran Anda untuk membuat ClearTok lebih baik."
+   },
+   "feedbackPlaceholder": {
+      "message": "Bagikan pemikiran dan saran Anda..."
+   },
+   "feedbackTitle": {
+      "message": "Bantu kami berkembang! 💡"
+   },
+   "howItWorks1": {
+      "message": "Navigasi ke profil TikTok Anda"
+   },
+   "howItWorks2": {
+      "message": "Cari dan buka tab Repost"
+   },
+   "howItWorks3": {
+      "message": "Otomatis menghapus semua video repost"
+   },
+   "howItWorks4": {
+      "message": "Pelacakan progres real-time"
+   },
+   "howItWorksTitle": {
+      "message": "📖 Cara kerja"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ Catatan Penting"
+   },
+   "languageSelector": {
+      "message": "🌐 Bahasa"
+   },
+   "logError": {
+      "message": "Kesalahan: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ Gagal menyalin daftar video terhapus"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ Gagal menyalin URL"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 Navigasi ke tab repost untuk menampilkan hasil..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ Tidak ada repost ditemukan - profil Anda bersih!{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ Halaman berhasil dimuat ulang"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 Proses selesai! {count} video dihapus{duration}."
+   },
+   "logProcessPaused": {
+      "message": "Proses dijeda oleh pengguna"
+   },
+   "logProcessResumed": {
+      "message": "Proses dilanjutkan"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 Memuat ulang halaman TikTok untuk menampilkan konten yang diperbarui..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 Daftar video terhapus disalin ke clipboard"
+   },
+   "logStartingProcess": {
+      "message": "🚀 Memulai proses penghapusan repost..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ Tidak dapat memuat ulang halaman secara otomatis"
+   },
+   "logVideoRemoved": {
+      "message": "Repost #{number} dihapus"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "Repost dihapus oleh {author}"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "Dihapus: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "Dihapus: \"{title}\" oleh {author}"
+   },
+   "logVideoSkipped": {
+      "message": "#{number} dilewati"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "Video dilewati oleh {author}"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "Dilewati: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "Dilewati: \"{title}\" oleh {author}"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 URL video disalin ke clipboard"
+   },
+   "logWaitingPaused": {
+      "message": "Proses dijeda"
+   },
+   "logWaitingSeconds": {
+      "message": "Menunggu {seconds}d..."
+   },
+   "loginStatusDefault": {
+      "message": "Klik untuk membuka TikTok.com"
+   },
+   "loginStatusError": {
+      "message": "Gagal membuka TikTok - Coba lagi"
+   },
+   "loginStatusLoggedIn": {
+      "message": "Sudah masuk - Siap untuk mulai!"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "Silakan masuk ke TikTok terlebih dahulu"
+   },
+   "loginStatusOpening": {
+      "message": "Membuka TikTok.com..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.com sudah terbuka - Siap untuk mulai!"
+   },
+   "noRemovedVideos": {
+      "message": "Belum ada video yang dihapus"
+   },
+   "noRepostsFoundMessage": {
+      "message": "Bagus! Tidak ada repost ditemukan di profil Anda."
+   },
+   "note1Description": {
+      "message": "Biarkan TikTok.com terbuka dan tetap masuk"
+   },
+   "note1Title": {
+      "message": "Tetap masuk:"
+   },
+   "note2Description": {
+      "message": "Biarkan proses selesai secara alami"
+   },
+   "note2Title": {
+      "message": "Jangan interupsi:"
+   },
+   "note3Description": {
+      "message": "Kecepatan proses tergantung pada koneksi Anda"
+   },
+   "note3Title": {
+      "message": "Kecepatan jaringan:"
+   },
+   "note4Description": {
+      "message": "Hanya menghapus repost, video asli tetap aman"
+   },
+   "note4Title": {
+      "message": "Operasi aman:"
+   },
+   "notificationCaptionCopied": {
+      "message": "Caption disalin"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "Gagal menyalin"
+   },
+   "notificationExportFailed": {
+      "message": "❌ Gagal mengekspor CSV"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ Daftar diekspor sebagai CSV"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ Gagal menyalin daftar ke clipboard"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ Gagal menyalin URL ke clipboard"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ URL video tidak valid"
+   },
+   "notificationListCopied": {
+      "message": "📋 Daftar video terhapus berhasil disalin!"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ Tidak ada video repost ditemukan!"
+   },
+   "notificationNoUrls": {
+      "message": "📝 Belum ada URL video yang tersedia. Mulai proses penghapusan untuk melihat URL video."
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 Halaman TikTok dimuat ulang, navigasi ke repost..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ Masuk ke TikTok.com untuk melanjutkan"
+   },
+   "notificationShareSaved": {
+      "message": "Kartu berhasil disimpan"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 URL video berhasil disalin ke clipboard!"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 Video dibuka di tab baru"
+   },
+   "pauseButton": {
+      "message": "⏸️ Jeda"
+   },
+   "pendingVideosHeader": {
+      "message": "=== VIDEO TERTUNDA/DIPROSES ==="
+   },
+   "pleaseRateUs": {
+      "message": "Silakan Beri Rating"
+   },
+   "privacy1": {
+      "message": "✅ Tidak ada kata sandi tersimpan"
+   },
+   "privacy2": {
+      "message": "✅ Tidak ada data dikumpulkan"
+   },
+   "privacy3": {
+      "message": "✅ Bekerja lokal di browser Anda"
+   },
+   "privacy4": {
+      "message": "✅ Open source & transparan"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 Privasi & Keamanan"
+   },
+   "progressLabel": {
+      "message": "📊 Progres:"
+   },
+   "rateThisExtension": {
+      "message": "Beri Peringkat Ekstensi Ini"
+   },
+   "rateUsActionButton": {
+      "message": "Beri Rating"
+   },
+   "rateUsButton": {
+      "message": "⭐ Beri Rating"
+   },
+   "recheckLoginTitle": {
+      "message": "Periksa ulang login"
+   },
+   "removedVideosHeader": {
+      "message": "=== VIDEO TERHAPUS ({count} total) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ Video Terhapus"
+   },
+   "reportIssueLink": {
+      "message": "🐛 Laporkan Masalah"
+   },
+   "restartButton": {
+      "message": "🔄 Mulai Sesi Baru"
+   },
+   "resumeButton": {
+      "message": "▶️ Lanjutkan"
+   },
+   "retryButton": {
+      "message": "🔄 Coba Lagi"
+   },
+   "shareCardButton": {
+      "message": "Bagikan kartu"
+   },
+   "shareCopyCaption": {
+      "message": "Salin caption"
+   },
+   "shareModalTitle": {
+      "message": "Bagikan pembersihanmu"
+   },
+   "shareSaveImage": {
+      "message": "Simpan gambar"
+   },
+   "shareShuffleTitle": {
+      "message": "Sarankan tagline acak"
+   },
+   "shareTaglineLabel": {
+      "message": "Tagline:"
+   },
+   "shareTaglinePlaceholder": {
+      "message": "Tulis sendiri..."
+   },
+   "share_tagline_1": {
+      "message": "Aku menghapus semua repost agar bisa mulai dari awal dan meninggalkan yang lama"
+   },
+   "share_tagline_10": {
+      "message": "Membangun kembali dengan tenang — tanpa spoiler kali ini"
+   },
+   "share_tagline_11": {
+      "message": "Tak ada remah roti lagi. Yang tahu ya tahu"
+   },
+   "share_tagline_12": {
+      "message": "Aku sudah melangkah maju. Algoritma akan menyusul nanti"
+   },
+   "share_tagline_13": {
+      "message": "Menghapus gema. Menjaga suara"
+   },
+   "share_tagline_14": {
+      "message": "Lebih sedikit bising, lebih banyak diriku"
+   },
+   "share_tagline_15": {
+      "message": "Menulis ulang timeline, mulai dari sini"
+   },
+   "share_tagline_2": {
+      "message": "Menghapus semua repost supaya dia tidak tahu apa yang kulakukan dan kurasakan..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "Aku hapus semua repost karena dia tak akan pernah peduli padaku"
+   },
+   "share_tagline_4": {
+      "message": "Hapus semua repost untuk memulai hidup baru"
+   },
+   "share_tagline_5": {
+      "message": "Aku hapus semua repost, jadi kamu tak bisa menebak siapa aku"
+   },
+   "share_tagline_6": {
+      "message": "Mengarsipkan masa lalu untuk memberi ruang pada masa depan"
+   },
+   "share_tagline_7": {
+      "message": "Soft reset: hapus repost, simpan pelajaran"
+   },
+   "share_tagline_8": {
+      "message": "Membersihkan papan tulis, satu repost setiap kali"
+   },
+   "share_tagline_9": {
+      "message": "Selamat tinggal, kemarin. Halo, diriku versi 2.0"
+   },
+   "startButton": {
+      "message": "🧹 Mulai Menghapus Repost"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "Tab Reposts tidak ditemukan."
+   },
+   "statusDailyLimitReached": {
+      "message": "Batas harian tercapai"
+   },
+   "statusFoundTotal": {
+      "message": "Ditemukan {total} repost."
+   },
+   "statusInitializing": {
+      "message": "Menginisialisasi..."
+   },
+   "statusLabel": {
+      "message": "🧹 Status:"
+   },
+   "statusLoadedSoFar": {
+      "message": "Sudah memuat {count} repost..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "Mencari tab Reposts..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "Membuka tab Reposts..."
+   },
+   "statusNavigatingProfile": {
+      "message": "Menuju profil Anda..."
+   },
+   "statusOnRepostsTab": {
+      "message": "Di tab Reposts — menampilkan hasil."
+   },
+   "statusOpeningFirstRepost": {
+      "message": "Membuka repost pertama..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "Memroses repost {current} dari {total}..."
+   },
+   "statusScrolling": {
+      "message": "Memuat repost awal..."
+   },
+   "statusStarting": {
+      "message": "Memulai pembersihan repost..."
+   },
+   "step1Description": {
+      "message": "Klik di sini untuk membuka TikTok.com dan masuk ke akun Anda."
+   },
+   "step1Status": {
+      "message": "Klik untuk membuka TikTok.com"
+   },
+   "step1Title": {
+      "message": "Langkah 1: Masuk ke TikTok.com"
+   },
+   "step2Title": {
+      "message": "Langkah 2: Mulai Menghapus"
+   },
+   "submitFeedbackButton": {
+      "message": "Kirim masukan"
+   },
+   "thankYouForFeedback": {
+      "message": "Terima kasih atas penilaian {rating} bintang dan masukan Anda!"
+   },
+   "thankYouForRating": {
+      "message": "Terima kasih atas penilaian Anda!"
+   },
+   "unlockPlusButton": {
+      "message": "Hapus lebih banyak repost"
+   },
+   "videoRemovedAt": {
+      "message": "Dihapus pada: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "Status: Tertunda/Dilewati"
+   },
+   "videoUnknownAuthor": {
+      "message": "Tidak diketahui"
+   },
+   "videoUnknownTitle": {
+      "message": "Tidak diketahui"
+   },
+   "viewLogButton": {
+      "message": "🧾 Lihat Log"
+   }
+}

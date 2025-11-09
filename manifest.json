@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon.png",
+         "16": "icon.png",
+         "48": "icon.png"
+      },
+      "default_title": "Yukirem - Repost Remover"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "host_permissions": [ "https://*.tiktok.com/*", "https://api.tiktokrepostremover.com/*" ],
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnHWRpxbdBp/aDQ1cbaB2mkwDxgQt8WxSmLcKKEzXVg+LmDV4RCXVDI9yT0tTofj2H50BxCFmZ19j03c06AYfanEoB3G04Oe8WFEMEDmvtqjaUUaW7ZGQPfoWGT3820q4FYVTg6JdFVt+WkREvkfS6+q847xulo+EIGjTmfIr5p1e9ONA7oq3atYqGOaaV25DQndtI6+2hT5717YBNDNPD376fm0+qacLY1Yjny5WyIpiey8FpwT8mvCUKJZc6l9eTOWNqMnxVvaBCbCUeeqg4vc33GUpekSgJ6FrLuz1RtHmUEbUxHty6fhW9x+Zunx3CD8jTZBL+KVNHcZXb+Op9wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "scripting", "tabs", "activeTab", "sidePanel", "storage" ],
+   "side_panel": {
+      "default_path": "popup.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.4",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.tiktok.com/*" ],
+      "resources": [ "styles.css", "api-service.js", "assets/selectors-fallback.json" ]
+   } ]
+}

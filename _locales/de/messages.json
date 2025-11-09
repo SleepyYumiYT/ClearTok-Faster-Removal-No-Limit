@@ -1,0 +1,461 @@
+{
+   "alertOpenTikTokFirst": {
+      "message": "Bitte öffnen Sie zuerst TikTok.com, indem Sie auf Schritt 1 klicken"
+   },
+   "allDoneTitle": {
+      "message": "Fertig!"
+   },
+   "alreadyRatedButton": {
+      "message": "Bereits bewertet"
+   },
+   "appTitle": {
+      "message": "ClearTok - Repost Entferner"
+   },
+   "completionMessage": {
+      "message": "Erfolgreich {count} repostete Videos aus Ihrem Profil entfernt."
+   },
+   "completionMessageNoReposts": {
+      "message": "Großartig! Keine reposteten Videos in Ihrem Profil gefunden{duration}."
+   },
+   "completionMessageSuccess": {
+      "message": "Erfolgreich {count} repostete{plural} Video{plural} entfernt{duration}."
+   },
+   "copyRemovedButton": {
+      "message": "📋 Entfernte Liste kopieren"
+   },
+   "currentLanguage": {
+      "message": "Deutsch"
+   },
+   "dailyLimitReachedButton": {
+      "message": "Mehr Reposts entfernen"
+   },
+   "durationMinutes": {
+      "message": " in {minutes} Min {seconds} Sekunden"
+   },
+   "durationSeconds": {
+      "message": " in {seconds} Sekunden"
+   },
+   "errorMessage": {
+      "message": "Bitte versuchen Sie es erneut oder überprüfen Sie die Konsole für Details."
+   },
+   "errorTitle": {
+      "message": "Etwas ist schiefgelaufen"
+   },
+   "exportButtonText": {
+      "message": "⬇️ Export"
+   },
+   "exportButtonTitle": {
+      "message": "CSV exportieren"
+   },
+   "extDescription": {
+      "message": "Entferne deine TikTok‑Reposts sofort – kein Scrollen, kein Tippen."
+   },
+   "extName": {
+      "message": "ClearTok - Repost Entferner"
+   },
+   "feedbackDescription": {
+      "message": "Wir würden gerne Ihre Vorschläge hören, um ClearTok zu verbessern."
+   },
+   "feedbackPlaceholder": {
+      "message": "Teilen Sie Ihre Gedanken und Vorschläge mit..."
+   },
+   "feedbackTitle": {
+      "message": "Helfen Sie uns zu verbessern! 💡"
+   },
+   "howItWorks1": {
+      "message": "Navigieren Sie zu Ihrem TikTok-Profil"
+   },
+   "howItWorks2": {
+      "message": "Finden und öffnen Sie den Reposts-Tab"
+   },
+   "howItWorks3": {
+      "message": "Automatisches Entfernen aller reposteten Videos"
+   },
+   "howItWorks4": {
+      "message": "Echtzeit-Fortschritts-Tracking"
+   },
+   "howItWorksTitle": {
+      "message": "📖 Wie es funktioniert"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ Wichtige Hinweise"
+   },
+   "languageSelector": {
+      "message": "🌐 Sprache"
+   },
+   "logError": {
+      "message": "Fehler: {message}"
+   },
+   "logFailedToCopyList": {
+      "message": "❌ Fehler beim Kopieren der Liste entfernter Videos"
+   },
+   "logFailedToCopyUrls": {
+      "message": "❌ Fehler beim Kopieren der URLs"
+   },
+   "logNavigatingToReposts": {
+      "message": "🎯 Navigation zum Reposts-Tab, um Ergebnisse anzuzeigen..."
+   },
+   "logNoRepostsFound": {
+      "message": "✨ Keine Reposts gefunden - Ihr Profil ist sauber!{duration}"
+   },
+   "logPageRefreshed": {
+      "message": "✅ Seite erfolgreich aktualisiert"
+   },
+   "logProcessCompleted": {
+      "message": "🎉 Prozess abgeschlossen! {count} Videos entfernt{duration}."
+   },
+   "logProcessPaused": {
+      "message": "Prozess vom Benutzer pausiert"
+   },
+   "logProcessResumed": {
+      "message": "Prozess fortgesetzt"
+   },
+   "logRefreshingPage": {
+      "message": "🔄 TikTok-Seite wird aktualisiert, um aktualisierte Inhalte anzuzeigen..."
+   },
+   "logRemovedListCopied": {
+      "message": "📋 Liste entfernter Videos in die Zwischenablage kopiert"
+   },
+   "logStartingProcess": {
+      "message": "🚀 Repost-Entfernungsprozess wird gestartet..."
+   },
+   "logUnableToRefresh": {
+      "message": "⚠️ Seite konnte nicht automatisch aktualisiert werden"
+   },
+   "logVideoRemoved": {
+      "message": "Repost #{number} entfernt"
+   },
+   "logVideoRemovedAuthorOnly": {
+      "message": "Repost von {author} entfernt"
+   },
+   "logVideoRemovedTitleOnly": {
+      "message": "Entfernt: \"{title}\""
+   },
+   "logVideoRemovedWithTitle": {
+      "message": "Entfernt: \"{title}\" von {author}"
+   },
+   "logVideoSkipped": {
+      "message": "#{number} übersprungen"
+   },
+   "logVideoSkippedAuthorOnly": {
+      "message": "Video von {author} übersprungen"
+   },
+   "logVideoSkippedTitleOnly": {
+      "message": "Übersprungen: \"{title}\""
+   },
+   "logVideoSkippedWithReason": {
+      "message": "{message} ({reason})"
+   },
+   "logVideoSkippedWithTitle": {
+      "message": "Übersprungen: \"{title}\" von {author}"
+   },
+   "logVideoUrlsCopied": {
+      "message": "📋 Video-URLs in die Zwischenablage kopiert"
+   },
+   "logWaitingPaused": {
+      "message": "Prozess pausiert"
+   },
+   "logWaitingSeconds": {
+      "message": "Warte {seconds}s..."
+   },
+   "loginStatusDefault": {
+      "message": "Klicken Sie, um TikTok.com zu öffnen"
+   },
+   "loginStatusError": {
+      "message": "Fehler beim Öffnen von TikTok - Erneut versuchen"
+   },
+   "loginStatusLoggedIn": {
+      "message": "Eingeloggt - Bereit zum Start!"
+   },
+   "loginStatusNotLoggedIn": {
+      "message": "Bitte melden Sie sich zuerst bei TikTok an"
+   },
+   "loginStatusOpening": {
+      "message": "TikTok.com wird geöffnet..."
+   },
+   "loginStatusReady": {
+      "message": "TikTok.com ist geöffnet - Bereit zum Start!"
+   },
+   "noRemovedVideos": {
+      "message": "Noch keine Videos entfernt"
+   },
+   "noRepostsFoundMessage": {
+      "message": "Super! Keine Reposts in Ihrem Profil gefunden."
+   },
+   "note1Description": {
+      "message": "Lassen Sie TikTok.com geöffnet und eingeloggt"
+   },
+   "note1Title": {
+      "message": "Eingeloggt bleiben:"
+   },
+   "note2Description": {
+      "message": "Lassen Sie den Prozess natürlich abschließen"
+   },
+   "note2Title": {
+      "message": "Nicht unterbrechen:"
+   },
+   "note3Description": {
+      "message": "Prozessgeschwindigkeit hängt von Ihrer Verbindung ab"
+   },
+   "note3Title": {
+      "message": "Netzwerkgeschwindigkeit:"
+   },
+   "note4Description": {
+      "message": "Entfernt nur Reposts, Originalvideos sind sicher"
+   },
+   "note4Title": {
+      "message": "Sichere Operation:"
+   },
+   "notificationCaptionCopied": {
+      "message": "Beschriftung kopiert"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "Kopieren fehlgeschlagen"
+   },
+   "notificationExportFailed": {
+      "message": "❌ CSV‑Export fehlgeschlagen"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ Liste als CSV exportiert"
+   },
+   "notificationFailedToCopyList": {
+      "message": "❌ Fehler beim Kopieren der Liste in die Zwischenablage"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ Fehler beim Kopieren der URLs in die Zwischenablage"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ Ungültige Video‑URL"
+   },
+   "notificationListCopied": {
+      "message": "📋 Liste entfernter Videos erfolgreich kopiert!"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ Keine Repost-Videos gefunden!"
+   },
+   "notificationNoUrls": {
+      "message": "📝 Noch keine Video-URLs verfügbar. Starten Sie den Entfernungsprozess, um Video-URLs zu sehen."
+   },
+   "notificationPageRefreshed": {
+      "message": "🔄 TikTok-Seite aktualisiert, Navigation zu Reposts..."
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ Bitte bei TikTok.com anmelden, um fortzufahren"
+   },
+   "notificationShareSaved": {
+      "message": "Share-Karte gespeichert"
+   },
+   "notificationUrlsCopied": {
+      "message": "📋 Video-URLs erfolgreich in die Zwischenablage kopiert!"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 Video in neuem Tab geöffnet"
+   },
+   "pauseButton": {
+      "message": "⏸️ Pausieren"
+   },
+   "pendingVideosHeader": {
+      "message": "=== AUSSTEHENDE/VERARBEITETE VIDEOS ==="
+   },
+   "pleaseRateUs": {
+      "message": "Bitte bewerten Sie uns"
+   },
+   "privacy1": {
+      "message": "✅ Keine Passwörter gespeichert"
+   },
+   "privacy2": {
+      "message": "✅ Keine Daten gesammelt"
+   },
+   "privacy3": {
+      "message": "✅ Funktioniert lokal in Ihrem Browser"
+   },
+   "privacy4": {
+      "message": "✅ Open Source & transparent"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 Datenschutz & Sicherheit"
+   },
+   "progressLabel": {
+      "message": "📊 Fortschritt:"
+   },
+   "rateThisExtension": {
+      "message": "Diese Erweiterung bewerten"
+   },
+   "rateUsActionButton": {
+      "message": "Bewerten"
+   },
+   "rateUsButton": {
+      "message": "⭐ Bewerten"
+   },
+   "recheckLoginTitle": {
+      "message": "Login erneut prüfen"
+   },
+   "removedVideosHeader": {
+      "message": "=== ENTFERNTE VIDEOS ({count} gesamt) ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ Entfernte Videos"
+   },
+   "reportIssueLink": {
+      "message": "🐛 Problem melden"
+   },
+   "restartButton": {
+      "message": "🔄 Neue Sitzung starten"
+   },
+   "resumeButton": {
+      "message": "▶️ Fortsetzen"
+   },
+   "retryButton": {
+      "message": "🔄 Erneut versuchen"
+   },
+   "shareCardButton": {
+      "message": "Karte teilen"
+   },
+   "shareCopyCaption": {
+      "message": "Beschriftung kopieren"
+   },
+   "shareModalTitle": {
+      "message": "Deine Aufräumaktion teilen"
+   },
+   "shareSaveImage": {
+      "message": "Bild speichern"
+   },
+   "shareShuffleTitle": {
+      "message": "Zufälligen Slogan vorschlagen"
+   },
+   "shareTaglineLabel": {
+      "message": "Slogan:"
+   },
+   "shareTaglinePlaceholder": {
+      "message": "Schreibe deinen eigenen..."
+   },
+   "share_tagline_1": {
+      "message": "Ich habe alle meine Reposts gelöscht, um neu zu beginnen und das Alte hinter mir zu lassen"
+   },
+   "share_tagline_10": {
+      "message": "Leise neu aufbauen – diesmal ohne Spoiler"
+   },
+   "share_tagline_11": {
+      "message": "Keine Brotkrumen mehr. Wer’s weiß, der weiß"
+   },
+   "share_tagline_12": {
+      "message": "Weitergezogen. Der Algorithmus holt später auf"
+   },
+   "share_tagline_13": {
+      "message": "Echos löschen. Die Stimme behalten"
+   },
+   "share_tagline_14": {
+      "message": "Weniger Lärm, mehr ich"
+   },
+   "share_tagline_15": {
+      "message": "Die Timeline neu schreiben – ab hier"
+   },
+   "share_tagline_2": {
+      "message": "Ich lösche alle Reposts, damit er nicht weiß, was ich tue oder fühle..!!🕊️❤️‍🩹✨"
+   },
+   "share_tagline_3": {
+      "message": "Ich lösche all meine Reposts, weil es ihm nie wichtig sein wird"
+   },
+   "share_tagline_4": {
+      "message": "Alle Reposts entfernen, um ein neues Leben zu beginnen"
+   },
+   "share_tagline_5": {
+      "message": "Alle meine Reposts gelöscht, damit du nicht herausfinden kannst, wer ich bin"
+   },
+   "share_tagline_6": {
+      "message": "Meine Vergangenheit archivieren, um Platz für die Zukunft zu schaffen"
+   },
+   "share_tagline_7": {
+      "message": "Soft-Reset: Reposts löschen, Lektionen behalten"
+   },
+   "share_tagline_8": {
+      "message": "Tafel wischen – einen Repost nach dem anderen"
+   },
+   "share_tagline_9": {
+      "message": "Leb wohl, Gestern. Hallo, ich Version 2.0"
+   },
+   "startButton": {
+      "message": "🧹 Reposts entfernen starten"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "Reposts‑Tab nicht gefunden."
+   },
+   "statusDailyLimitReached": {
+      "message": "Tageslimit erreicht"
+   },
+   "statusFoundTotal": {
+      "message": "{total} Reposts gefunden."
+   },
+   "statusInitializing": {
+      "message": "Initialisierung..."
+   },
+   "statusLabel": {
+      "message": "🧹 Status:"
+   },
+   "statusLoadedSoFar": {
+      "message": "Bisher {count} Reposts geladen..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "Reposts‑Tab wird gesucht..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "Reposts‑Tab öffnen..."
+   },
+   "statusNavigatingProfile": {
+      "message": "Zum Profil navigieren..."
+   },
+   "statusOnRepostsTab": {
+      "message": "Im Reposts‑Tab – Ergebnisse anzeigen."
+   },
+   "statusOpeningFirstRepost": {
+      "message": "Ersten Repost öffnen..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "Repost {current} von {total} wird verarbeitet..."
+   },
+   "statusScrolling": {
+      "message": "Erste Reposts werden geladen..."
+   },
+   "statusStarting": {
+      "message": "Reposts‑Bereinigung wird gestartet..."
+   },
+   "step1Description": {
+      "message": "Klicken Sie hier, um TikTok.com zu öffnen und sich in Ihr Konto einzuloggen."
+   },
+   "step1Status": {
+      "message": "Klicken Sie, um TikTok.com zu öffnen"
+   },
+   "step1Title": {
+      "message": "Schritt 1: Bei TikTok.com anmelden"
+   },
+   "step2Title": {
+      "message": "Schritt 2: Entfernen starten"
+   },
+   "submitFeedbackButton": {
+      "message": "Feedback senden"
+   },
+   "thankYouForFeedback": {
+      "message": "Vielen Dank für Ihre {rating}-Sterne-Bewertung und Ihr Feedback!"
+   },
+   "thankYouForRating": {
+      "message": "Vielen Dank für Ihr Feedback!"
+   },
+   "unlockPlusButton": {
+      "message": "Mehr Reposts entfernen"
+   },
+   "videoRemovedAt": {
+      "message": "Entfernt am: {timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "Status: Ausstehend/Übersprungen"
+   },
+   "videoUnknownAuthor": {
+      "message": "Unbekannt"
+   },
+   "videoUnknownTitle": {
+      "message": "Unbekannt"
+   },
+   "viewLogButton": {
+      "message": "🧾 Protokoll anzeigen"
+   }
+}

@@ -1,0 +1,293 @@
+{
+   "allDoneTitle": {
+      "message": "完成！"
+   },
+   "appTitle": {
+      "message": "ClearTok - 转发清理器"
+   },
+   "completionMessage": {
+      "message": "已成功从你的主页移除 {count} 条转发视频。"
+   },
+   "completionMessageSuccess": {
+      "message": "已成功移除 {count} 条转发视频{duration}。"
+   },
+   "copyRemovedButton": {
+      "message": "📋 复制已移除列表"
+   },
+   "currentLanguage": {
+      "message": "简体中文"
+   },
+   "dailyLimitReachedButton": {
+      "message": "删除更多转发"
+   },
+   "durationMinutes": {
+      "message": " ，耗时 {minutes} 分 {seconds} 秒"
+   },
+   "durationSeconds": {
+      "message": " ，耗时 {seconds} 秒"
+   },
+   "errorMessage": {
+      "message": "请重试，或在控制台查看详细信息。"
+   },
+   "errorTitle": {
+      "message": "出现问题"
+   },
+   "exportButtonText": {
+      "message": "⬇️ 导出"
+   },
+   "exportButtonTitle": {
+      "message": "导出 CSV"
+   },
+   "extDescription": {
+      "message": "一键清理你在 TikTok 的所有转发—无需滚动、无需逐个点击。"
+   },
+   "extName": {
+      "message": "ClearTok - TikTok 转发清理器"
+   },
+   "howItWorks1": {
+      "message": "进入你的 TikTok 个人主页"
+   },
+   "howItWorks2": {
+      "message": "找到并打开“转发”标签"
+   },
+   "howItWorks3": {
+      "message": "自动移除所有已转发的视频"
+   },
+   "howItWorks4": {
+      "message": "实时显示处理进度"
+   },
+   "howItWorksTitle": {
+      "message": "📖 使用说明"
+   },
+   "importantNotesTitle": {
+      "message": "⚠️ 注意事项"
+   },
+   "languageSelector": {
+      "message": "🌐 语言"
+   },
+   "logProcessPaused": {
+      "message": "已暂停"
+   },
+   "logProcessResumed": {
+      "message": "继续处理"
+   },
+   "logStartingProcess": {
+      "message": "🚀 正在开始清理转发..."
+   },
+   "loginStatusChecking": {
+      "message": "正在检查登录状态..."
+   },
+   "loginStatusDefault": {
+      "message": "点击打开 TikTok.com"
+   },
+   "noRemovedVideos": {
+      "message": "尚未移除任何视频"
+   },
+   "noRepostsFoundMessage": {
+      "message": "太棒了！你的主页没有发现任何转发。"
+   },
+   "note1Description": {
+      "message": "保持 TikTok.com 打开且处于登录状态"
+   },
+   "note1Title": {
+      "message": "保持登录："
+   },
+   "note2Description": {
+      "message": "让流程自然完成"
+   },
+   "note2Title": {
+      "message": "不要中断："
+   },
+   "note3Description": {
+      "message": "处理速度取决于你的网络状况"
+   },
+   "note3Title": {
+      "message": "网络速度："
+   },
+   "note4Description": {
+      "message": "只会移除“转发”，原创视频不会删除"
+   },
+   "note4Title": {
+      "message": "安全操作："
+   },
+   "notificationCaptionCopied": {
+      "message": "已复制"
+   },
+   "notificationCaptionCopyFailed": {
+      "message": "复制失败"
+   },
+   "notificationExportFailed": {
+      "message": "❌ 导出 CSV 失败"
+   },
+   "notificationExportSuccess": {
+      "message": "✅ 已导出 CSV"
+   },
+   "notificationFailedToCopyUrls": {
+      "message": "❌ 复制失败"
+   },
+   "notificationInvalidVideoUrl": {
+      "message": "❌ 无效的视频链接"
+   },
+   "notificationNoRepostsFound": {
+      "message": "✨ 没有发现转发视频！"
+   },
+   "notificationNoUrls": {
+      "message": "📝 暂无视频链接。开始清理后可查看列表。"
+   },
+   "notificationPleaseLogin": {
+      "message": "⚠️ 请先登录 TikTok.com 后继续"
+   },
+   "notificationShareSaved": {
+      "message": "已保存分享卡片"
+   },
+   "notificationUrlsCopied": {
+      "message": "✅ 已复制到剪贴板"
+   },
+   "notificationVideoOpened": {
+      "message": "🔗 已在新标签页打开视频"
+   },
+   "pauseButton": {
+      "message": "⏸️ 暂停"
+   },
+   "pendingVideosHeader": {
+      "message": "=== 待处理/已跳过视频 ==="
+   },
+   "privacy1": {
+      "message": "✅ 不保存任何密码"
+   },
+   "privacy2": {
+      "message": "✅ 不收集任何数据"
+   },
+   "privacy3": {
+      "message": "✅ 所有操作仅在你的浏览器本地执行"
+   },
+   "privacy4": {
+      "message": "✅ 开源且透明"
+   },
+   "privacySecurityTitle": {
+      "message": "🔒 隐私与安全"
+   },
+   "progressLabel": {
+      "message": "📊 进度："
+   },
+   "rateUsButton": {
+      "message": "⭐ 评分"
+   },
+   "recheckLoginTitle": {
+      "message": "重新检查登录"
+   },
+   "removedVideosHeader": {
+      "message": "=== 已移除视频（共 {count} 条） ==="
+   },
+   "removedVideosTitle": {
+      "message": "🗑️ 已移除的视频"
+   },
+   "reportIssueLink": {
+      "message": "🐛 反馈问题"
+   },
+   "restartButton": {
+      "message": "🔄 开始新会话"
+   },
+   "resumeButton": {
+      "message": "▶️ 继续"
+   },
+   "retryButton": {
+      "message": "🔄 重试"
+   },
+   "shareCardButton": {
+      "message": "分享卡片"
+   },
+   "shareCopyCaption": {
+      "message": "复制文案"
+   },
+   "shareModalTitle": {
+      "message": "分享你的清理成果"
+   },
+   "shareSaveImage": {
+      "message": "保存图片"
+   },
+   "shareShuffleTitle": {
+      "message": "随机推荐一句标语"
+   },
+   "shareTaglineLabel": {
+      "message": "标语："
+   },
+   "shareTaglinePlaceholder": {
+      "message": "写下你的标语..."
+   },
+   "startButton": {
+      "message": "🧹 开始清理转发"
+   },
+   "statusCouldNotFindRepostsTab": {
+      "message": "未找到“转发”标签。"
+   },
+   "statusDailyLimitReached": {
+      "message": "已达到每日额度"
+   },
+   "statusFoundTotal": {
+      "message": "共找到 {total} 条转发。"
+   },
+   "statusInitializing": {
+      "message": "正在初始化..."
+   },
+   "statusLabel": {
+      "message": "🧹 状态："
+   },
+   "statusLoadedSoFar": {
+      "message": "已加载 {count} 条转发..."
+   },
+   "statusLookingForRepostsTab": {
+      "message": "正在查找“转发”标签..."
+   },
+   "statusNavigateToRepostsTab": {
+      "message": "正在打开“转发”标签..."
+   },
+   "statusNavigatingProfile": {
+      "message": "正在前往你的个人主页..."
+   },
+   "statusOnRepostsTab": {
+      "message": "已切换到“转发”标签，正在展示结果。"
+   },
+   "statusOpeningFirstRepost": {
+      "message": "正在打开第一条转发..."
+   },
+   "statusProcessingRepostOf": {
+      "message": "正在处理第 {current}/{total} 条转发..."
+   },
+   "statusScrolling": {
+      "message": "正在加载初始转发..."
+   },
+   "statusStarting": {
+      "message": "正在开始清理转发..."
+   },
+   "step1Description": {
+      "message": "点击这里打开 TikTok.com 并登录你的账号。"
+   },
+   "step1Status": {
+      "message": "点击打开 TikTok.com"
+   },
+   "step1Title": {
+      "message": "步骤一：登录 TikTok.com"
+   },
+   "step2Title": {
+      "message": "步骤二：开始清理"
+   },
+   "unlockPlusButton": {
+      "message": "删除更多转发"
+   },
+   "videoRemovedAt": {
+      "message": "移除时间：{timestamp}"
+   },
+   "videoStatusPending": {
+      "message": "状态：待处理/已跳过"
+   },
+   "videoUnknownAuthor": {
+      "message": "未知"
+   },
+   "videoUnknownTitle": {
+      "message": "未知"
+   },
+   "viewLogButton": {
+      "message": "🧾 查看日志"
+   }
+}
